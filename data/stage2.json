@@ -116,14 +116,16 @@
      "pinyin": "qí zìxíngchē",
      "english": "ride a bicycle",
      "example": "我每天都骑车去大学。",
-     "example_en": "I cycle to the university every day."
+     "example_en": "I cycle to the university every day.",
+     "example_py": "wǒ měi tiān dōu qí chē qù dà xué."
     },
     {
      "hanzi": "骑车",
      "pinyin": "qí chē",
      "english": "cycle, ride a bike",
      "example": "我们一起骑车，好吗？",
-     "example_en": "Shall we cycle together?"
+     "example_en": "Shall we cycle together?",
+     "example_py": "wǒ men yì qǐ qí chē, hǎo ma?"
     },
     {
      "hanzi": "出租车",
@@ -137,14 +139,16 @@
      "pinyin": "dǎ dī",
      "english": "take a taxi",
      "example": "我不想打的。",
-     "example_en": "I don't want to take a taxi."
+     "example_en": "I don't want to take a taxi.",
+     "example_py": "wǒ bù xiǎng dǎ dī."
     },
     {
      "hanzi": "走路",
      "pinyin": "zǒu lù",
      "english": "walk",
      "example": "我早上走路去大学。",
-     "example_en": "I walk to the university in the morning."
+     "example_en": "I walk to the university in the morning.",
+     "example_py": "wǒ zǎo shang zǒu lù qù dà xué."
     },
     {
      "hanzi": "走",
@@ -165,7 +169,8 @@
      "pinyin": "lí",
      "english": "(distance) from",
      "example": "我家离学校很近。",
-     "example_en": "My home is close to school."
+     "example_en": "My home is close to school.",
+     "example_py": "wǒ jiā lí xué xiào hěn jìn."
     },
     {
      "hanzi": "远",
@@ -186,7 +191,8 @@
      "pinyin": "chūshēng",
      "english": "be born",
      "example": "我是在香港出生的。",
-     "example_en": "I was born in Hong Kong."
+     "example_en": "I was born in Hong Kong.",
+     "example_py": "wǒ shì zài xiāng gǎng chū shēng de."
     },
     {
      "hanzi": "久仰",
@@ -203,7 +209,8 @@
      "examples": [
       [
        "他坐火车去伦敦。",
-       "He goes to London by train."
+       "He goes to London by train.",
+       "tā zuò huǒ chē qù lún dūn."
       ]
      ]
     },
@@ -213,7 +220,8 @@
      "examples": [
       [
        "我早上走路去大学。",
-       "I walk to the university in the morning."
+       "I walk to the university in the morning.",
+       "wǒ zǎo shang zǒu lù qù dà xué."
       ]
      ]
     },
@@ -223,15 +231,18 @@
      "examples": [
       [
        "他是昨天去伦敦的。",
-       "It was yesterday that he went to London."
+       "It was yesterday that he went to London.",
+       "tā shì zuó tiān qù lún dūn de."
       ],
       [
        "他是坐火车去伦敦的。",
-       "It was by train that he went to London."
+       "It was by train that he went to London.",
+       "tā shì zuò huǒ chē qù lún dūn de."
       ],
       [
        "你是怎么来的？",
-       "How did you get here?"
+       "How did you get here?",
+       "nǐ shì zěn me lái de?"
       ]
      ]
     },
@@ -241,11 +252,13 @@
      "examples": [
       [
        "美国离中国很远。",
-       "America is far from China."
+       "America is far from China.",
+       "měi guó lí zhōng guó hěn yuǎn."
       ],
       [
        "你家离学校远不远？",
-       "Is your home far from school?"
+       "Is your home far from school?",
+       "nǐ jiā lí xué xiào yuǎn bù yuǎn?"
       ]
      ]
     }
@@ -262,7 +275,8 @@
      "pinyin": "ràng",
      "english": "make, let, ask, allow",
      "example": "让你久等了。",
-     "example_en": "Sorry to keep you waiting."
+     "example_en": "Sorry to keep you waiting.",
+     "example_py": "ràng nǐ jiǔ děng le."
     },
     {
      "hanzi": "等",
@@ -276,14 +290,16 @@
      "pinyin": "jiǔ",
      "english": "a long time",
      "example": "我等了很久。",
-     "example_en": "I waited for a long time."
+     "example_en": "I waited for a long time.",
+     "example_py": "wǒ děng le hěn jiǔ."
     },
     {
      "hanzi": "长",
      "pinyin": "cháng",
      "english": "long",
      "example": "我等了很长时间。",
-     "example_en": "I waited for a long time."
+     "example_en": "I waited for a long time.",
+     "example_py": "wǒ děng le hěn cháng shí jiān."
     },
     {
      "hanzi": "时间",
@@ -304,28 +320,32 @@
      "pinyin": "gāng",
      "english": "just (happened)",
      "example": "我刚回杜伦。",
-     "example_en": "I just got back to Durham."
+     "example_en": "I just got back to Durham.",
+     "example_py": "wǒ gāng huí dù lún."
     },
     {
      "hanzi": "坏",
      "pinyin": "huài",
      "english": "broken, bad, gone off",
      "example": "我的电脑坏了。",
-     "example_en": "My computer has broken."
+     "example_en": "My computer has broken.",
+     "example_py": "wǒ de diàn nǎo huài le."
     },
     {
      "hanzi": "一定",
      "pinyin": "yídìng",
      "english": "must, surely, definitely",
      "example": "你一定是我妈妈的朋友。",
-     "example_en": "You must be my mum's friend."
+     "example_en": "You must be my mum's friend.",
+     "example_py": "nǐ yí dìng shì wǒ mā ma de péng you."
     },
     {
      "hanzi": "花",
      "pinyin": "huā",
      "english": "spend (money, time); flower",
      "example": "今年夏天我花了很多钱。",
-     "example_en": "I spent a lot of money this summer."
+     "example_en": "I spent a lot of money this summer.",
+     "example_py": "jīn nián xià tiān wǒ huā le hěn duō qián."
     },
     {
      "hanzi": "爱",
@@ -388,21 +408,24 @@
      "pinyin": "líkāi",
      "english": "leave, depart",
      "example": "他们离开了。",
-     "example_en": "They have left."
+     "example_en": "They have left.",
+     "example_py": "tā men lí kāi le."
     },
     {
      "hanzi": "需要",
      "pinyin": "xūyào",
      "english": "need, require",
      "example": "你需要什么？",
-     "example_en": "What do you need?"
+     "example_en": "What do you need?",
+     "example_py": "nǐ xū yào shén me?"
     },
     {
      "hanzi": "看来",
      "pinyin": "kànlái",
      "english": "it looks like, it seems",
      "example": "看来你们真的喜欢学中文。",
-     "example_en": "It looks like you really like studying Chinese."
+     "example_en": "It looks like you really like studying Chinese.",
+     "example_py": "kàn lái nǐ men zhēn de xǐ huan xué zhōng wén."
     },
     {
      "hanzi": "真的",
@@ -489,7 +512,8 @@
      "examples": [
       [
        "让你久等了。",
-       "Sorry to keep you waiting."
+       "Sorry to keep you waiting.",
+       "ràng nǐ jiǔ děng le."
       ]
      ]
     },
@@ -499,11 +523,13 @@
      "examples": [
       [
        "你坐了多长时间（公共汽车）？",
-       "How long were you on the bus?"
+       "How long were you on the bus?",
+       "nǐ zuò le duō cháng shí jiān (gōng gòng qì chē)?"
       ],
       [
        "我坐了一个多小时。",
-       "I was on it for over an hour."
+       "I was on it for over an hour.",
+       "wǒ zuò le yí gè duō xiǎo shí."
       ]
      ]
     },
@@ -523,7 +549,8 @@
      "examples": [
       [
        "你一定要来看我们。",
-       "You must come and see us."
+       "You must come and see us.",
+       "nǐ yí dìng yào lái kàn wǒ men."
       ]
      ]
     },
@@ -533,11 +560,13 @@
      "examples": [
       [
        "你吃饭了没有？",
-       "Have you eaten?"
+       "Have you eaten?",
+       "nǐ chī fàn le méi yǒu?"
       ],
       [
        "你昨天去没去看足球比赛？",
-       "Did you go to watch the football match yesterday?"
+       "Did you go to watch the football match yesterday?",
+       "nǐ zuó tiān qù méi qù kàn zú qiú bǐ sài?"
       ]
      ]
     },
@@ -547,11 +576,13 @@
      "examples": [
       [
        "因为我有一个中国女朋友，所以我想学中文。",
-       "Because I have a Chinese girlfriend, I want to learn Chinese."
+       "Because I have a Chinese girlfriend, I want to learn Chinese.",
+       "yīn wèi wǒ yǒu yí gè zhōng guó nǚ péng you, suǒ yǐ wǒ xiǎng xué zhōng wén."
       ],
       [
        "因为那里太远了，所以我不想去。",
-       "Because it's too far, I don't want to go."
+       "Because it's too far, I don't want to go.",
+       "yīn wèi nà li tài yuǎn le, suǒ yǐ wǒ bù xiǎng qù."
       ]
      ]
     },
@@ -564,15 +595,18 @@
    "sentences": [
     {
      "zh": "我们去看电影了，不过我们不喜欢。",
-     "en": "We went to see the film, but we didn't like it."
+     "en": "We went to see the film, but we didn't like it.",
+     "py": "wǒ men qù kàn diàn yǐng le, bú guò wǒ men bù xǐ huan."
     },
     {
      "zh": "我想去图书馆，可是公共汽车坏了。",
-     "en": "I want to go to the library, but the bus has broken down."
+     "en": "I want to go to the library, but the bus has broken down.",
+     "py": "wǒ xiǎng qù tú shū guǎn, kě shì gōng gòng qì chē huài le."
     },
     {
      "zh": "我喜欢北京烤鸭，不过我妈妈不喜欢。",
-     "en": "I like Peking duck, but my mum doesn't."
+     "en": "I like Peking duck, but my mum doesn't.",
+     "py": "wǒ xǐ huan běi jīng kǎo yā, bú guò wǒ mā ma bù xǐ huan."
     }
    ]
   },
@@ -586,14 +620,16 @@
      "pinyin": "tiàowǔ",
      "english": "dance",
      "example": "他们舞跳得很好。",
-     "example_en": "They dance very well."
+     "example_en": "They dance very well.",
+     "example_py": "tā men wǔ tiào de hěn hǎo."
     },
     {
      "hanzi": "唱歌",
      "pinyin": "chànggē",
      "english": "sing",
      "example": "她歌唱得很好。",
-     "example_en": "She sings very well."
+     "example_en": "She sings very well.",
+     "example_py": "tā gē chàng de hěn hǎo."
     },
     {
      "hanzi": "表演",
@@ -614,7 +650,8 @@
      "pinyin": "róngyì",
      "english": "easy",
      "example": "学习外语真的不容易。",
-     "example_en": "Learning a foreign language really isn't easy."
+     "example_en": "Learning a foreign language really isn't easy.",
+     "example_py": "xué xí wài yǔ zhēn de bù róng yì."
     },
     {
      "hanzi": "晚会",
@@ -649,14 +686,16 @@
      "pinyin": "xiāngxìn",
      "english": "believe, trust",
      "example": "你不相信吗？",
-     "example_en": "You don't believe it?"
+     "example_en": "You don't believe it?",
+     "example_py": "nǐ bù xiāng xìn ma?"
     },
     {
      "hanzi": "流利",
      "pinyin": "liúlì",
      "english": "fluent",
      "example": "我们中文说得很流利。",
-     "example_en": "We speak Chinese very fluently."
+     "example_en": "We speak Chinese very fluently.",
+     "example_py": "wǒ men zhōng wén shuō de hěn liú lì."
     },
     {
      "hanzi": "不错",
@@ -698,14 +737,16 @@
      "pinyin": "dǒng",
      "english": "understand",
      "example": "你懂了吗？",
-     "example_en": "Do you understand?"
+     "example_en": "Do you understand?",
+     "example_py": "nǐ dǒng le ma?"
     },
     {
      "hanzi": "怪不得",
      "pinyin": "guàibude",
      "english": "no wonder",
      "example": "怪不得你的中文这么好。",
-     "example_en": "No wonder your Chinese is so good."
+     "example_en": "No wonder your Chinese is so good.",
+     "example_py": "guài bu de nǐ de zhōng wén zhè me hǎo."
     },
     {
      "hanzi": "难怪",
@@ -733,14 +774,16 @@
      "pinyin": "jí",
      "english": "extremely",
      "example": "漂亮极了！",
-     "example_en": "Extremely beautiful!"
+     "example_en": "Extremely beautiful!",
+     "example_py": "piào liang jí le!"
     },
     {
      "hanzi": "从来不",
      "pinyin": "cónglái bù",
      "english": "never",
      "example": "我从来不知道你会中国功夫。",
-     "example_en": "I never knew you could do kung fu."
+     "example_en": "I never knew you could do kung fu.",
+     "example_py": "wǒ cóng lái bù zhī dao nǐ huì zhōng guó gōng fu."
     },
     {
      "hanzi": "得",
@@ -775,7 +818,8 @@
      "pinyin": "biàn",
      "english": "time (counts repeats of an action)",
      "example": "请再说一遍。",
-     "example_en": "Please say it again."
+     "example_en": "Please say it again.",
+     "example_py": "qǐng zài shuō yí biàn."
     },
     {
      "hanzi": "还",
@@ -789,14 +833,16 @@
      "pinyin": "bù zěnmeyàng",
      "english": "not very good",
      "example": "我跳得不怎么样。",
-     "example_en": "I'm not very good at dancing."
+     "example_en": "I'm not very good at dancing.",
+     "example_py": "wǒ tiào de bù zěn me yàng."
     },
     {
      "hanzi": "早就",
      "pinyin": "zǎo jiù",
      "english": "long ago, already",
      "example": "我早就想认识你了。",
-     "example_en": "I've wanted to meet you for ages."
+     "example_en": "I've wanted to meet you for ages.",
+     "example_py": "wǒ zǎo jiù xiǎng rèn shi nǐ le."
     }
    ],
    "grammar": [
@@ -806,15 +852,18 @@
      "examples": [
       [
        "你（说）中文说得很好。",
-       "You speak Chinese very well."
+       "You speak Chinese very well.",
+       "nǐ (shuō) zhōng wén shuō de hěn hǎo."
       ],
       [
        "妈妈饭做得很好吃。",
-       "Mum's cooking is delicious."
+       "Mum's cooking is delicious.",
+       "mā ma fàn zuò de hěn hǎo chī."
       ],
       [
        "你说得太快了。",
-       "You're speaking too fast."
+       "You're speaking too fast.",
+       "nǐ shuō de tài kuài le."
       ]
      ]
     },
@@ -824,11 +873,13 @@
      "examples": [
       [
        "她高兴地说……",
-       "She said happily..."
+       "She said happily...",
+       "tā gāo xìng de shuō……"
       ],
       [
        "他累得不想吃饭。",
-       "He's so tired he doesn't want to eat."
+       "He's so tired he doesn't want to eat.",
+       "tā lèi de bù xiǎng chī fàn."
       ]
      ]
     },
@@ -838,7 +889,8 @@
      "examples": [
       [
        "冷极了！",
-       "It's freezing!"
+       "It's freezing!",
+       "lěng jí le!"
       ]
      ]
     },
@@ -848,11 +900,13 @@
      "examples": [
       [
        "我哥哥就会说英语。",
-       "My brother only speaks English (no other languages)."
+       "My brother only speaks English (no other languages).",
+       "wǒ gē ge jiù huì shuō yīng yǔ."
       ],
       [
        "我哥哥才会说英语。",
-       "Only my brother speaks English (not me)."
+       "Only my brother speaks English (not me).",
+       "wǒ gē ge cái huì shuō yīng yǔ."
       ]
      ]
     },
@@ -862,11 +916,13 @@
      "examples": [
       [
        "早晨9点上课，他7点半就来了。",
-       "Class starts at 9, and he arrived as early as 7:30."
+       "Class starts at 9, and he arrived as early as 7:30.",
+       "zǎo chén 9 diǎn shàng kè, tā 7 diǎn bàn jiù lái le."
       ],
       [
        "电影7点才开始。",
-       "The film doesn't start until 7."
+       "The film doesn't start until 7.",
+       "diàn yǐng 7 diǎn cái kāi shǐ."
       ]
      ]
     },
@@ -876,7 +932,8 @@
      "examples": [
       [
        "我从来没去过中国。",
-       "I've never been to China."
+       "I've never been to China.",
+       "wǒ cóng lái méi qù guo zhōng guó."
       ]
      ]
     },
@@ -886,7 +943,8 @@
      "examples": [
       [
        "我哥哥早就想去日本了。",
-       "My brother has wanted to go to Japan for ages."
+       "My brother has wanted to go to Japan for ages.",
+       "wǒ gē ge zǎo jiù xiǎng qù rì běn le."
       ]
      ]
     },
@@ -896,7 +954,8 @@
      "examples": [
       [
        "我跟哥哥都喜欢吃意大利菜。",
-       "My brother and I both like Italian food."
+       "My brother and I both like Italian food.",
+       "wǒ gēn gē ge dōu xǐ huan chī yì dà lì cài."
       ]
      ]
     },
@@ -906,7 +965,8 @@
      "examples": [
       [
        "我爸爸是老师，我也是老师。",
-       "My dad is a teacher, and I'm a teacher too."
+       "My dad is a teacher, and I'm a teacher too.",
+       "wǒ bà ba shì lǎo shī, wǒ yě shì lǎo shī."
       ]
      ]
     }
@@ -914,23 +974,28 @@
    "sentences": [
     {
      "zh": "学习外语真的不容易。",
-     "en": "Learning a foreign language really isn't easy."
+     "en": "Learning a foreign language really isn't easy.",
+     "py": "xué xí wài yǔ zhēn de bù róng yì."
     },
     {
      "zh": "请再写三遍。",
-     "en": "Please write it three more times."
+     "en": "Please write it three more times.",
+     "py": "qǐng zài xiě sān biàn."
     },
     {
      "zh": "我没去过这家餐厅，不过我听说还不错。",
-     "en": "I've never been to this restaurant, but I hear it's pretty good."
+     "en": "I've never been to this restaurant, but I hear it's pretty good.",
+     "py": "wǒ méi qù guo zhè jiā cān tīng, bú guò wǒ tīng shuō hái bú cuò."
     },
     {
      "zh": "这家店关门了？可是它才开了一个星期。",
-     "en": "This shop has closed? But it's only been open a week."
+     "en": "This shop has closed? But it's only been open a week.",
+     "py": "zhè jiā diàn guān mén le? kě shì tā cái kāi le yí gè xīng qī."
     },
     {
      "zh": "怪不得你不喜欢披萨。",
-     "en": "No wonder you don't like pizza."
+     "en": "No wonder you don't like pizza.",
+     "py": "guài bu de nǐ bù xǐ huan pī sà."
     }
    ]
   },
@@ -944,21 +1009,24 @@
      "pinyin": "zài",
      "english": "be doing (ongoing); at, in",
      "example": "我在看电视。",
-     "example_en": "I'm watching TV."
+     "example_en": "I'm watching TV.",
+     "example_py": "wǒ zài kàn diàn shì."
     },
     {
      "hanzi": "正在",
      "pinyin": "zhèngzài",
      "english": "in the middle of doing",
      "example": "我正在看书。",
-     "example_en": "I'm reading right now."
+     "example_en": "I'm reading right now.",
+     "example_py": "wǒ zhèng zài kàn shū."
     },
     {
      "hanzi": "练习",
      "pinyin": "liànxí",
      "english": "practise; exercise",
      "example": "我在做练习。",
-     "example_en": "I'm doing exercises."
+     "example_en": "I'm doing exercises.",
+     "example_py": "wǒ zài zuò liàn xí."
     },
     {
      "hanzi": "电话",
@@ -972,7 +1040,8 @@
      "pinyin": "dǎ diànhuà",
      "english": "make a phone call",
      "example": "你给谁打电话？",
-     "example_en": "Who are you calling?"
+     "example_en": "Who are you calling?",
+     "example_py": "nǐ gěi shuí dǎ diàn huà?"
     },
     {
      "hanzi": "接电话",
@@ -993,7 +1062,8 @@
      "pinyin": "yòng",
      "english": "use",
      "example": "他用手机打电话。",
-     "example_en": "He makes calls on his mobile."
+     "example_en": "He makes calls on his mobile.",
+     "example_py": "tā yòng shǒu jī dǎ diàn huà."
     },
     {
      "hanzi": "写信",
@@ -1014,7 +1084,8 @@
      "pinyin": "fā",
      "english": "send",
      "example": "给我发邮件吧。",
-     "example_en": "Send me an email."
+     "example_en": "Send me an email.",
+     "example_py": "gěi wǒ fā yóu jiàn ba."
     },
     {
      "hanzi": "情书",
@@ -1028,14 +1099,16 @@
      "pinyin": "bāng",
      "english": "help",
      "example": "我帮我妈妈做饭。",
-     "example_en": "I help my mum cook."
+     "example_en": "I help my mum cook.",
+     "example_py": "wǒ bāng wǒ mā ma zuò fàn."
     },
     {
      "hanzi": "以为",
      "pinyin": "yǐwéi",
      "english": "thought (wrongly)",
      "example": "对不起，我以为这是我的书。",
-     "example_en": "Sorry, I thought this was my book."
+     "example_en": "Sorry, I thought this was my book.",
+     "example_py": "duì bù qǐ, wǒ yǐ wéi zhè shì wǒ de shū."
     },
     {
      "hanzi": "睡觉",
@@ -1077,7 +1150,8 @@
      "pinyin": "zhǔnbèi",
      "english": "prepare",
      "example": "我正在准备考试。",
-     "example_en": "I'm preparing for an exam."
+     "example_en": "I'm preparing for an exam.",
+     "example_py": "wǒ zhèng zài zhǔn bèi kǎo shì."
     },
     {
      "hanzi": "考试",
@@ -1119,7 +1193,8 @@
      "pinyin": "jiè",
      "english": "borrow; lend",
      "example": "我想借你的手机用一下。",
-     "example_en": "Can I borrow your phone for a moment?"
+     "example_en": "Can I borrow your phone for a moment?",
+     "example_py": "wǒ xiǎng jiè nǐ de shǒu jī yòng yí xià."
     },
     {
      "hanzi": "还",
@@ -1154,14 +1229,16 @@
      "pinyin": "zuìjìn",
      "english": "recently",
      "example": "你最近在忙什么？",
-     "example_en": "What have you been busy with recently?"
+     "example_en": "What have you been busy with recently?",
+     "example_py": "nǐ zuì jìn zài máng shén me?"
     },
     {
      "hanzi": "一下",
      "pinyin": "yíxià",
      "english": "(do something) briefly",
      "example": "介绍一下",
-     "example_en": "introduce briefly"
+     "example_en": "introduce briefly",
+     "example_py": "jiè shào yí xià"
     },
     {
      "hanzi": "对了",
@@ -1175,7 +1252,8 @@
      "pinyin": "wèntí",
      "english": "question, problem",
      "example": "我有个问题。",
-     "example_en": "I have a question."
+     "example_en": "I have a question.",
+     "example_py": "wǒ yǒu gè wèn tí."
     }
    ],
    "grammar": [
@@ -1185,11 +1263,13 @@
      "examples": [
       [
        "你在干什么呢？",
-       "What are you doing?"
+       "What are you doing?",
+       "nǐ zài gàn shén me ne?"
       ],
       [
        "我在和我妈妈说话。",
-       "I'm talking to my mum."
+       "I'm talking to my mum.",
+       "wǒ zài hé wǒ mā ma shuō huà."
       ]
      ]
     },
@@ -1199,7 +1279,8 @@
      "examples": [
       [
        "我哥哥在图书馆学习。",
-       "My brother studies at the library."
+       "My brother studies at the library.",
+       "wǒ gē ge zài tú shū guǎn xué xí."
       ]
      ]
     },
@@ -1209,7 +1290,8 @@
      "examples": [
       [
        "我用电脑写中文作业。",
-       "I do my Chinese homework on the computer."
+       "I do my Chinese homework on the computer.",
+       "wǒ yòng diàn nǎo xiě zhōng wén zuò yè."
       ]
      ]
     },
@@ -1219,7 +1301,8 @@
      "examples": [
       [
        "我给妈妈打电话。",
-       "I call my mum."
+       "I call my mum.",
+       "wǒ gěi mā ma dǎ diàn huà."
       ]
      ]
     },
@@ -1229,7 +1312,8 @@
      "examples": [
       [
        "你能不能帮帮我？",
-       "Can you help me?"
+       "Can you help me?",
+       "nǐ néng bù néng bāng bāng wǒ?"
       ]
      ]
     },
@@ -1239,11 +1323,13 @@
      "examples": [
       [
        "我常常一边洗澡，一边唱歌。",
-       "I often sing in the shower."
+       "I often sing in the shower.",
+       "wǒ cháng cháng yì biān xǐ zǎo, yì biān chàng gē."
       ],
       [
        "不要一边开车，一边打电话。",
-       "Don't talk on the phone while driving."
+       "Don't talk on the phone while driving.",
+       "bú yào yì biān kāi chē, yì biān dǎ diàn huà."
       ]
      ]
     },
@@ -1258,7 +1344,8 @@
      "examples": [
       [
        "看一下",
-       "have a look"
+       "have a look",
+       "kàn yí xià"
       ]
      ]
     }
@@ -1266,39 +1353,48 @@
    "sentences": [
     {
      "zh": "今天早上九点左右，她正在给她妈妈打电话。",
-     "en": "At around nine this morning, she was on the phone to her mum."
+     "en": "At around nine this morning, she was on the phone to her mum.",
+     "py": "jīn tiān zǎo shang jiǔ diǎn zuǒ yòu, tā zhèng zài gěi tā mā ma dǎ diàn huà."
     },
     {
      "zh": "哥哥喜欢一边看电视，一边吃饭。",
-     "en": "My older brother likes to watch TV while he eats."
+     "en": "My older brother likes to watch TV while he eats.",
+     "py": "gē ge xǐ huan yì biān kàn diàn shì, yì biān chī fàn."
     },
     {
      "zh": "爸爸说不要一边吃饭，一边说话。",
-     "en": "Dad says don't talk while you're eating."
+     "en": "Dad says don't talk while you're eating.",
+     "py": "bà ba shuō bú yào yì biān chī fàn, yì biān shuō huà."
     },
     {
      "zh": "昨天晚上我回家的时候，看见姐姐正在一边唱歌，一边跳舞。",
-     "en": "When I got home last night, I saw my sister singing and dancing at the same time."
+     "en": "When I got home last night, I saw my sister singing and dancing at the same time.",
+     "py": "zuó tiān wǎn shang wǒ huí jiā de shí hou, kàn jiàn jiě jie zhèng zài yì biān chàng gē, yì biān tiào wǔ."
     },
     {
      "zh": "他正在开会，不能接电话。",
-     "en": "He's in a meeting and can't answer the phone."
+     "en": "He's in a meeting and can't answer the phone.",
+     "py": "tā zhèng zài kāi huì, bù néng jiē diàn huà."
     },
     {
      "zh": "你能给李老师打电话吗？",
-     "en": "Can you call Teacher Li?"
+     "en": "Can you call Teacher Li?",
+     "py": "nǐ néng gěi lǐ lǎo shī dǎ diàn huà ma?"
     },
     {
      "zh": "我正在给她打电话。",
-     "en": "I'm calling her now."
+     "en": "I'm calling her now.",
+     "py": "wǒ zhèng zài gěi tā dǎ diàn huà."
     },
     {
      "zh": "我正在做饭，你能给银行打电话吗？",
-     "en": "I'm cooking right now, can you call the bank?"
+     "en": "I'm cooking right now, can you call the bank?",
+     "py": "wǒ zhèng zài zuò fàn, nǐ néng gěi yín háng dǎ diàn huà ma?"
     },
     {
      "zh": "我以为你会喜欢这本书，没想到你不喜欢。",
-     "en": "I thought you'd like this book, but you didn't."
+     "en": "I thought you'd like this book, but you didn't.",
+     "py": "wǒ yǐ wéi nǐ huì xǐ huan zhè běn shū, méi xiǎng dào nǐ bù xǐ huan."
     }
    ]
   },
@@ -1312,14 +1408,16 @@
      "pinyin": "diànnǎo",
      "english": "computer",
      "example": "我们每天都用电脑。",
-     "example_en": "We use computers every day."
+     "example_en": "We use computers every day.",
+     "example_py": "wǒ men měi tiān dōu yòng diàn nǎo."
     },
     {
      "hanzi": "台",
      "pinyin": "tái",
      "english": "measure word for machines",
      "example": "我想买一台新电脑。",
-     "example_en": "I want to buy a new computer."
+     "example_en": "I want to buy a new computer.",
+     "example_py": "wǒ xiǎng mǎi yì tái xīn diàn nǎo."
     },
     {
      "hanzi": "手提",
@@ -1361,7 +1459,8 @@
      "pinyin": "gèzhǒng",
      "english": "all kinds of",
      "example": "在大学里你会遇到各种人。",
-     "example_en": "At university you'll meet all kinds of people."
+     "example_en": "At university you'll meet all kinds of people.",
+     "example_py": "zài dà xué lǐ nǐ huì yù dào gè zhǒng rén."
     },
     {
      "hanzi": "遇到",
@@ -1375,7 +1474,8 @@
      "pinyin": "páizi",
      "english": "brand",
      "example": "你喜欢哪种牌子？",
-     "example_en": "Which brand do you like?"
+     "example_en": "Which brand do you like?",
+     "example_py": "nǐ xǐ huan nǎ zhǒng pái zi?"
     },
     {
      "hanzi": "进口",
@@ -1410,7 +1510,8 @@
      "pinyin": "zhìzào",
      "english": "manufacture",
      "example": "中国制造",
-     "example_en": "Made in China"
+     "example_en": "Made in China",
+     "example_py": "zhōng guó zhì zào"
     },
     {
      "hanzi": "兴趣",
@@ -1424,7 +1525,8 @@
      "pinyin": "gǎn xìngqù",
      "english": "be interested",
      "example": "我们对学习中文感兴趣。",
-     "example_en": "We're interested in learning Chinese."
+     "example_en": "We're interested in learning Chinese.",
+     "example_py": "wǒ men duì xué xí zhōng wén gǎn xìng qù."
     },
     {
      "hanzi": "东西",
@@ -1522,7 +1624,8 @@
      "pinyin": "dāngshí",
      "english": "at that time",
      "example": "我当时在吃午饭。",
-     "example_en": "I was having lunch at the time."
+     "example_en": "I was having lunch at the time.",
+     "example_py": "wǒ dāng shí zài chī wǔ fàn."
     },
     {
      "hanzi": "那时候",
@@ -1557,7 +1660,8 @@
      "pinyin": "wàng",
      "english": "forget",
      "example": "对不起我忘了给你打电话。",
-     "example_en": "Sorry, I forgot to call you."
+     "example_en": "Sorry, I forgot to call you.",
+     "example_py": "duì bù qǐ wǒ wàng le gěi nǐ dǎ diàn huà."
     },
     {
      "hanzi": "已经",
@@ -1571,7 +1675,8 @@
      "pinyin": "guòshí",
      "english": "out of date",
      "example": "这种牌子已经过时了。",
-     "example_en": "This brand is already out of date."
+     "example_en": "This brand is already out of date.",
+     "example_py": "zhè zhǒng pái zi yǐ jīng guò shí le."
     },
     {
      "hanzi": "旁边",
@@ -1602,11 +1707,13 @@
      "examples": [
       [
        "我想给你唱歌。",
-       "I want to sing for you."
+       "I want to sing for you.",
+       "wǒ xiǎng gěi nǐ chàng gē."
       ],
       [
        "我朋友常常给我做饭。",
-       "My friend often cooks for me."
+       "My friend often cooks for me.",
+       "wǒ péng you cháng cháng gěi wǒ zuò fàn."
       ]
      ]
     },
@@ -1616,7 +1723,8 @@
      "examples": [
       [
        "他们对考试没兴趣。",
-       "They're not interested in exams."
+       "They're not interested in exams.",
+       "tā men duì kǎo shì méi xìng qù."
       ]
      ]
     },
@@ -1626,11 +1734,13 @@
      "examples": [
       [
        "今天又湿又冷。",
-       "Today is both wet and cold."
+       "Today is both wet and cold.",
+       "jīn tiān yòu shī yòu lěng."
       ],
       [
        "我小妹妹又漂亮又可爱。",
-       "My little sister is pretty and cute."
+       "My little sister is pretty and cute.",
+       "wǒ xiǎo mèi mei yòu piào liang yòu kě ài."
       ]
      ]
     },
@@ -1640,7 +1750,8 @@
      "examples": [
       [
        "我们当时在认真地听课。",
-       "We were listening carefully in class at the time."
+       "We were listening carefully in class at the time.",
+       "wǒ men dāng shí zài rèn zhēn de tīng kè."
       ]
      ]
     },
@@ -1650,7 +1761,8 @@
      "examples": [
       [
        "你忘了我已经20岁了吗？",
-       "Did you forget I'm already 20?"
+       "Did you forget I'm already 20?",
+       "nǐ wàng le wǒ yǐ jīng 20 suì le ma?"
       ]
      ]
     }
@@ -1658,15 +1770,18 @@
    "sentences": [
     {
      "zh": "英国每年都从欧洲进口很多水果和蔬菜。",
-     "en": "Every year the UK imports lots of fruit and vegetables from Europe."
+     "en": "Every year the UK imports lots of fruit and vegetables from Europe.",
+     "py": "yīng guó měi nián dōu cóng ōu zhōu jìn kǒu hěn duō shuǐ guǒ hé shū cài."
     },
     {
      "zh": "我从来不知道你对跳舞这么感兴趣。",
-     "en": "I never knew you were so interested in dancing."
+     "en": "I never knew you were so interested in dancing.",
+     "py": "wǒ cóng lái bù zhī dao nǐ duì tiào wǔ zhè me gǎn xìng qù."
     },
     {
      "zh": "今天的作业你做得不好，因为你没认真地听课。",
-     "en": "You didn't do today's homework well because you didn't listen carefully in class."
+     "en": "You didn't do today's homework well because you didn't listen carefully in class.",
+     "py": "jīn tiān de zuò yè nǐ zuò de bù hǎo, yīn wèi nǐ méi rèn zhēn de tīng kè."
     }
    ]
   },
@@ -1687,14 +1802,16 @@
      "pinyin": "yìxiē",
      "english": "some",
      "example": "我学了一些中文。",
-     "example_en": "I've learnt some Chinese."
+     "example_en": "I've learnt some Chinese.",
+     "example_py": "wǒ xué le yì xiē zhōng wén."
     },
     {
      "hanzi": "有些",
      "pinyin": "yǒuxiē",
      "english": "some",
      "example": "有些人从来不做饭。",
-     "example_en": "Some people never cook."
+     "example_en": "Some people never cook.",
+     "example_py": "yǒu xiē rén cóng lái bú zuò fàn."
     },
     {
      "hanzi": "哪些",
@@ -1708,14 +1825,16 @@
      "pinyin": "dǎsuàn",
      "english": "plan; intend to",
      "example": "我打算去完中国就去日本。",
-     "example_en": "I plan to go to Japan right after China."
+     "example_en": "I plan to go to Japan right after China.",
+     "example_py": "wǒ dǎ suàn qù wán zhōng guó jiù qù rì běn."
     },
     {
      "hanzi": "完",
      "pinyin": "wán",
      "english": "finish",
      "example": "我们上完课就回家。",
-     "example_en": "We go home as soon as class finishes."
+     "example_en": "We go home as soon as class finishes.",
+     "example_py": "wǒ men shàng wán kè jiù huí jiā."
     },
     {
      "hanzi": "长城",
@@ -1750,21 +1869,24 @@
      "pinyin": "dāngrán",
      "english": "of course",
      "example": "我当然吃过披萨。",
-     "example_en": "Of course I've had pizza."
+     "example_en": "Of course I've had pizza.",
+     "example_py": "wǒ dāng rán chī guo pī sà."
     },
     {
      "hanzi": "马上",
      "pinyin": "mǎshàng",
      "english": "right away, immediately",
      "example": "我马上就走。",
-     "example_en": "I'll go right now."
+     "example_en": "I'll go right now.",
+     "example_py": "wǒ mǎ shàng jiù zǒu."
     },
     {
      "hanzi": "熊猫",
      "pinyin": "xióngmāo",
      "english": "panda",
      "example": "你见过熊猫吗？",
-     "example_en": "Have you ever seen a panda?"
+     "example_en": "Have you ever seen a panda?",
+     "example_py": "nǐ jiàn guo xióng māo ma?"
     },
     {
      "hanzi": "动物",
@@ -1792,14 +1914,16 @@
      "pinyin": "guo",
      "english": "particle for past experience",
      "example": "我去过日本一次。",
-     "example_en": "I've been to Japan once."
+     "example_en": "I've been to Japan once.",
+     "example_py": "wǒ qù guo rì běn yí cì."
     },
     {
      "hanzi": "假期",
      "pinyin": "jiàqī",
      "english": "holiday",
      "example": "你假期打算做什么？",
-     "example_en": "What are you planning to do in the holidays?"
+     "example_en": "What are you planning to do in the holidays?",
+     "example_py": "nǐ jià qī dǎ suàn zuò shén me?"
     },
     {
      "hanzi": "圣诞节",
@@ -1813,14 +1937,16 @@
      "pinyin": "fàng jià",
      "english": "have a holiday, be on break",
      "example": "学校下星期放假。",
-     "example_en": "School breaks up next week."
+     "example_en": "School breaks up next week.",
+     "example_py": "xué xiào xià xīng qī fàng jià."
     },
     {
      "hanzi": "度假",
      "pinyin": "dù jià",
      "english": "go on holiday",
      "example": "我去法国度假。",
-     "example_en": "I'm going on holiday to France."
+     "example_en": "I'm going on holiday to France.",
+     "example_py": "wǒ qù fǎ guó dù jiǎ."
     },
     {
      "hanzi": "要是",
@@ -1858,11 +1984,13 @@
      "examples": [
       [
        "你昨天买的电脑很贵。",
-       "The computer you bought yesterday is expensive."
+       "The computer you bought yesterday is expensive.",
+       "nǐ zuó tiān mǎi de diàn nǎo hěn guì."
       ],
       [
        "那个会说中文的女孩儿很漂亮。",
-       "The girl who can speak Chinese is pretty."
+       "The girl who can speak Chinese is pretty.",
+       "nà ge huì shuō zhōng wén de nǚ háir hěn piào liang."
       ]
      ]
     },
@@ -1872,7 +2000,8 @@
      "examples": [
       [
        "我们吃完饭就去玩儿。",
-       "We'll go out as soon as we've eaten."
+       "We'll go out as soon as we've eaten.",
+       "wǒ men chī wán fàn jiù qù wánr."
       ]
      ]
     },
@@ -1882,11 +2011,13 @@
      "examples": [
       [
        "我看过这本书。",
-       "I've read this book."
+       "I've read this book.",
+       "wǒ kàn guo zhè běn shū."
       ],
       [
        "我从来没听过他的歌。",
-       "I've never heard his songs."
+       "I've never heard his songs.",
+       "wǒ cóng lái méi tīng guo tā de gē."
       ]
      ]
     },
@@ -1896,11 +2027,13 @@
      "examples": [
       [
        "他去了法国。",
-       "He went to France."
+       "He went to France.",
+       "tā qù le fǎ guó."
       ],
       [
        "他去过法国。",
-       "He's been to France (before)."
+       "He's been to France (before).",
+       "tā qù guo fǎ guó."
       ]
      ]
     },
@@ -1910,7 +2043,8 @@
      "examples": [
       [
        "我是学过日语，可是我现在忘了。",
-       "I did learn Japanese, but I've forgotten it now."
+       "I did learn Japanese, but I've forgotten it now.",
+       "wǒ shì xué guo rì yǔ, kě shì wǒ xiàn zài wàng le."
       ]
      ]
     },
@@ -1920,7 +2054,8 @@
      "examples": [
       [
        "我都已经给你买花了，你为什么还不高兴？",
-       "I've already bought you flowers, why are you still unhappy?"
+       "I've already bought you flowers, why are you still unhappy?",
+       "wǒ dōu yǐ jīng gěi nǐ mǎi huā le, nǐ wèi shén me hái bù gāo xìng?"
       ]
      ]
     },
@@ -1930,7 +2065,8 @@
      "examples": [
       [
        "他一上课就玩手机。",
-       "As soon as class starts he plays on his phone."
+       "As soon as class starts he plays on his phone.",
+       "tā yí shàng kè jiù wán shǒu jī."
       ]
      ]
     },
@@ -1940,7 +2076,8 @@
      "examples": [
       [
        "我要去北京了。",
-       "I'm about to go to Beijing."
+       "I'm about to go to Beijing.",
+       "wǒ yào qù běi jīng le."
       ]
      ]
     },
@@ -1950,7 +2087,8 @@
      "examples": [
       [
        "你要是来，我就走。",
-       "If you come, I'll leave."
+       "If you come, I'll leave.",
+       "nǐ yào shì lái, wǒ jiù zǒu."
       ]
      ]
     }
@@ -1958,47 +2096,58 @@
    "sentences": [
     {
      "zh": "你买的茶很好喝。",
-     "en": "The tea you bought was very tasty."
+     "en": "The tea you bought was very tasty.",
+     "py": "nǐ mǎi de chá hěn hǎo hē."
     },
     {
      "zh": "你借的书在这儿。",
-     "en": "The book you borrowed is here."
+     "en": "The book you borrowed is here.",
+     "py": "nǐ jiè de shū zài zhèr."
     },
     {
      "zh": "一个我不认识的人来这儿找你了。",
-     "en": "Someone I don't know came here looking for you."
+     "en": "Someone I don't know came here looking for you.",
+     "py": "yí gè wǒ bú rèn shi de rén lái zhèr zhǎo nǐ le."
     },
     {
      "zh": "她说中国制造的东西又便宜又好。",
-     "en": "She said things made in China are cheap and good."
+     "en": "She said things made in China are cheap and good.",
+     "py": "tā shuō zhōng guó zhì zào de dōng xi yòu pián yi yòu hǎo."
     },
     {
      "zh": "我妈妈给我买了一台日本制造的电脑。",
-     "en": "My mum bought me a computer made in Japan."
+     "en": "My mum bought me a computer made in Japan.",
+     "py": "wǒ mā ma gěi wǒ mǎi le yì tái rì běn zhì zào de diàn nǎo."
     },
     {
      "zh": "我去年买的手机现在已经过时了。",
-     "en": "The phone I bought last year is already out of date."
+     "en": "The phone I bought last year is already out of date.",
+     "py": "wǒ qù nián mǎi de shǒu jī xiàn zài yǐ jīng guò shí le."
     },
     {
      "zh": "你去过美国吗？",
-     "en": "Have you ever been to the US?"
+     "en": "Have you ever been to the US?",
+     "py": "nǐ qù guo měi guó ma?"
     },
     {
      "zh": "你以前吃过意大利菜吗？",
-     "en": "Have you tried Italian food before?"
+     "en": "Have you tried Italian food before?",
+     "py": "nǐ yǐ qián chī guo yì dà lì cài ma?"
     },
     {
      "zh": "我吃完午饭就去看足球比赛了。",
-     "en": "After I had lunch, I went to watch a football match."
+     "en": "After I had lunch, I went to watch a football match.",
+     "py": "wǒ chī wán wǔ fàn jiù qù kàn zú qiú bǐ sài le."
     },
     {
      "zh": "我买了三本字典。",
-     "en": "I bought three dictionaries."
+     "en": "I bought three dictionaries.",
+     "py": "wǒ mǎi le sān běn zì diǎn."
     },
     {
      "zh": "别让他再去图书馆了，他今天已经去过三次了！",
-     "en": "Don't make him go to the library again. He's already been three times today!"
+     "en": "Don't make him go to the library again. He's already been three times today!",
+     "py": "bié ràng tā zài qù tú shū guǎn le, tā jīn tiān yǐ jīng qù guo sān cì le!"
     }
    ]
   },
@@ -2033,28 +2182,32 @@
      "pinyin": "zhōumò",
      "english": "weekend",
      "example": "你周末过得怎么样？",
-     "example_en": "How was your weekend?"
+     "example_en": "How was your weekend?",
+     "example_py": "nǐ zhōu mò guò de zěn me yàng?"
     },
     {
      "hanzi": "更",
      "pinyin": "gèng",
      "english": "even more",
      "example": "我更喜欢美国电影。",
-     "example_en": "I prefer American films."
+     "example_en": "I prefer American films.",
+     "example_py": "wǒ gèng xǐ huan měi guó diàn yǐng."
     },
     {
      "hanzi": "比起",
      "pinyin": "bǐqǐ",
      "english": "compared with",
      "example": "比起火车，飞机更快。",
-     "example_en": "Compared with trains, planes are faster."
+     "example_en": "Compared with trains, planes are faster.",
+     "example_py": "bǐ qǐ huǒ chē, fēi jī gèng kuài."
     },
     {
      "hanzi": "方便",
      "pinyin": "fāngbiàn",
      "english": "convenient",
      "example": "快餐更方便。",
-     "example_en": "Fast food is more convenient."
+     "example_en": "Fast food is more convenient.",
+     "example_py": "kuài cān gèng fāng biàn."
     },
     {
      "hanzi": "快餐",
@@ -2068,7 +2221,8 @@
      "pinyin": "wǎn diǎn",
      "english": "be late (of transport)",
      "example": "火车晚点了！",
-     "example_en": "The train is late!"
+     "example_en": "The train is late!",
+     "example_py": "huǒ chē wǎn diǎn le!"
     },
     {
      "hanzi": "游客",
@@ -2089,35 +2243,40 @@
      "pinyin": "chéng",
      "english": "become",
      "example": "他长大以后成了医生。",
-     "example_en": "He became a doctor when he grew up."
+     "example_en": "He became a doctor when he grew up.",
+     "example_py": "tā zhǎng dà yǐ hòu chéng le yī shēng."
     },
     {
      "hanzi": "成为",
      "pinyin": "chéngwéi",
      "english": "become",
      "example": "我弟弟想成为一名律师。",
-     "example_en": "My little brother wants to become a lawyer."
+     "example_en": "My little brother wants to become a lawyer.",
+     "example_py": "wǒ dì di xiǎng chéng wéi yì míng lǜ shī."
     },
     {
      "hanzi": "交朋友",
      "pinyin": "jiāo péngyou",
      "english": "make friends",
      "example": "我今年交了很多朋友。",
-     "example_en": "I made lots of friends this year."
+     "example_en": "I made lots of friends this year.",
+     "example_py": "wǒ jīn nián jiāo le hěn duō péng you."
     },
     {
      "hanzi": "交流",
      "pinyin": "jiāoliú",
      "english": "communicate",
      "example": "他们用汉语交流。",
-     "example_en": "They communicate in Chinese."
+     "example_en": "They communicate in Chinese.",
+     "example_py": "tā men yòng hàn yǔ jiāo liú."
     },
     {
      "hanzi": "放",
      "pinyin": "fàng",
      "english": "put, place",
      "example": "她把书放在家里。",
-     "example_en": "She left the book at home."
+     "example_en": "She left the book at home.",
+     "example_py": "tā bǎ shū fàng zài jiā lǐ."
     },
     {
      "hanzi": "医生",
@@ -2148,7 +2307,8 @@
      "examples": [
       [
        "我更爱冬天。",
-       "I love winter more."
+       "I love winter more.",
+       "wǒ gèng ài dōng tiān."
       ]
      ]
     },
@@ -2158,7 +2318,8 @@
      "examples": [
       [
        "伦敦比杜伦（更）大。",
-       "London is bigger than Durham."
+       "London is bigger than Durham.",
+       "lún dūn bǐ dù lún (gèng) dà."
       ]
      ]
     },
@@ -2168,7 +2329,8 @@
      "examples": [
       [
        "比起打篮球，他更喜欢踢足球。",
-       "He prefers football to basketball."
+       "He prefers football to basketball.",
+       "bǐ qǐ dǎ lán qiú, tā gèng xǐ huan tī zú qiú."
       ]
      ]
     },
@@ -2178,7 +2340,8 @@
      "examples": [
       [
        "你晚点儿再来吧。",
-       "Come back a bit later."
+       "Come back a bit later.",
+       "nǐ wǎn diǎnr zài lái ba."
       ]
      ]
     },
@@ -2188,7 +2351,8 @@
      "examples": [
       [
        "你假期过得怎么样？",
-       "How was your holiday?"
+       "How was your holiday?",
+       "nǐ jià qī guò de zěn me yàng?"
       ]
      ]
     },
@@ -2198,7 +2362,8 @@
      "examples": [
       [
        "她把书放在家里。",
-       "She left the book at home."
+       "She left the book at home.",
+       "tā bǎ shū fàng zài jiā lǐ."
       ]
      ]
     }
@@ -2217,7 +2382,8 @@
      "examples": [
       [
        "他昨天看了一本书。",
-       "He read a book yesterday."
+       "He read a book yesterday.",
+       "tā zuó tiān kàn le yì běn shū."
       ]
      ]
     },
@@ -2227,11 +2393,13 @@
      "examples": [
       [
        "现在冷了。",
-       "It has become cold now."
+       "It has become cold now.",
+       "xiàn zài lěng le."
       ],
       [
        "我不喜欢喝咖啡了。",
-       "I don't like coffee anymore."
+       "I don't like coffee anymore.",
+       "wǒ bù xǐ huan hē kā fēi le."
       ]
      ]
     },
@@ -2241,7 +2409,8 @@
      "examples": [
       [
        "我没吃早饭。",
-       "I didn't eat breakfast."
+       "I didn't eat breakfast.",
+       "wǒ méi chī zǎo fàn."
       ]
      ]
     },
@@ -2251,7 +2420,8 @@
      "examples": [
       [
        "我每天都喝咖啡。",
-       "I drink coffee every day."
+       "I drink coffee every day.",
+       "wǒ měi tiān dōu hē kā fēi."
       ]
      ]
     }
@@ -2259,83 +2429,103 @@
    "sentences": [
     {
      "zh": "我每天都喝咖啡。",
-     "en": "I drink coffee every day."
+     "en": "I drink coffee every day.",
+     "py": "wǒ měi tiān dōu hē kā fēi."
     },
     {
      "zh": "我今天喝了三杯咖啡。",
-     "en": "I drank 3 cups of coffee today."
+     "en": "I drank 3 cups of coffee today.",
+     "py": "wǒ jīn tiān hē le sān bēi kā fēi."
     },
     {
      "zh": "他喜欢看书。",
-     "en": "He likes reading."
+     "en": "He likes reading.",
+     "py": "tā xǐ huan kàn shū."
     },
     {
      "zh": "他昨天看了一本书。",
-     "en": "He read a book yesterday."
+     "en": "He read a book yesterday.",
+     "py": "tā zuó tiān kàn le yì běn shū."
     },
     {
      "zh": "今天很冷。",
-     "en": "It is very cold today."
+     "en": "It is very cold today.",
+     "py": "jīn tiān hěn lěng."
     },
     {
      "zh": "现在冷了。",
-     "en": "It has become cold now."
+     "en": "It has become cold now.",
+     "py": "xiàn zài lěng le."
     },
     {
      "zh": "她每天早上去上学。",
-     "en": "She goes to school every morning."
+     "en": "She goes to school every morning.",
+     "py": "tā měi tiān zǎo shang qù shàng xué."
     },
     {
      "zh": "她去上学了。",
-     "en": "She went to school."
+     "en": "She went to school.",
+     "py": "tā qù shàng xué le."
     },
     {
      "zh": "他是大学生。",
-     "en": "He is a university student."
+     "en": "He is a university student.",
+     "py": "tā shì dà xué shēng."
     },
     {
      "zh": "他不是小孩子了。",
-     "en": "He is not a kid anymore."
+     "en": "He is not a kid anymore.",
+     "py": "tā bú shì xiǎo hái zi le."
     },
     {
      "zh": "我以前喜欢喝咖啡。",
-     "en": "I used to like coffee."
+     "en": "I used to like coffee.",
+     "py": "wǒ yǐ qián xǐ huan hē kā fēi."
     },
     {
      "zh": "我不喜欢喝咖啡了。",
-     "en": "I don't like coffee anymore."
+     "en": "I don't like coffee anymore.",
+     "py": "wǒ bù xǐ huan hē kā fēi le."
     },
     {
      "zh": "我没吃早饭。",
-     "en": "I didn't eat breakfast."
+     "en": "I didn't eat breakfast.",
+     "py": "wǒ méi chī zǎo fàn."
     },
     {
      "zh": "我买了三本书。",
-     "en": "I bought 3 books."
+     "en": "I bought 3 books.",
+     "py": "wǒ mǎi le sān běn shū."
     },
     {
      "zh": "不冷了。",
-     "en": "It's not cold anymore."
+     "en": "It's not cold anymore.",
+     "py": "bù lěng le."
     },
     {
      "zh": "她昨天晚上看了一场足球比赛。",
-     "en": "She watched a football match last night."
+     "en": "She watched a football match last night.",
+     "py": "tā zuó tiān wǎn shang kàn le yì chǎng zú qiú bǐ sài."
     },
     {
      "zh": "她今天早上没喝咖啡。",
-     "en": "She didn't drink coffee this morning."
+     "en": "She didn't drink coffee this morning.",
+     "py": "tā jīn tiān zǎo shang méi hē kā fēi."
     },
     {
      "zh": "她现在已经喝了三杯咖啡了。",
-     "en": "Now she has had 3 cups of coffee."
+     "en": "Now she has had 3 cups of coffee.",
+     "py": "tā xiàn zài yǐ jīng hē le sān bēi kā fēi le."
     },
     {
      "zh": "我还没吃早饭呢。",
-     "en": "I haven't had breakfast yet."
+     "en": "I haven't had breakfast yet.",
+     "py": "wǒ hái méi chī zǎo fàn ne."
     },
     {
      "zh": "他不是学生了。",
-     "en": "He is not a student anymore."
+     "en": "He is not a student anymore.",
+     "py": "tā bú shì xué shēng le."
     }
    ]
   }

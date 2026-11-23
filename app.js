@@ -48,10 +48,10 @@ const modesFor = (set) => MODES.filter(([m]) => (m === "sentences" ? sentencesOf
 // Sentences to translate: the set's own list, plus every example sentence in its cards and grammar notes.
 function sentencesOf(set) {
   const seen = new Set(), out = [];
-  const add = (zh, en) => { if (zh && en && zh.length >= 4 && /[。？！]$/.test(zh) && !seen.has(zh)) { seen.add(zh); out.push({ zh, en }); } };
-  (set.sentences || []).forEach((x) => add(x.zh, x.en));
-  set.grammar.forEach((g) => g.examples.forEach(([zh, en]) => add(zh, en)));
-  set.cards.forEach((c) => add(c.example, c.example_en));
+  const add = (zh, en, py) => { if (zh && en && zh.length >= 4 && /[。？！]$/.test(zh) && !seen.has(zh)) { seen.add(zh); out.push({ zh, en, py }); } };
+  (set.sentences || []).forEach((x) => add(x.zh, x.en, x.py));
+  set.grammar.forEach((g) => g.examples.forEach(([zh, en, py]) => add(zh, en, py)));
+  set.cards.forEach((c) => add(c.example, c.example_en, c.example_py));
   return out;
 }
 
@@ -90,7 +90,7 @@ function modeCards(set, el) {
     const i = order[pos], c = set.cards[i];
     const front = `<div class="hanzi">${esc(c.hanzi)}</div>`;
     const back = `<div class="pinyin">${esc(c.pinyin)}</div><div class="eng">${esc(c.english)}</div>
-      ${c.example ? `<div class="ex">${esc(c.example)}<br>${esc(c.example_en)}</div>` : ""}`;
+      ${c.example ? `<div class="ex">${esc(c.example)}<br>${c.example_py ? `<span class="py">${esc(c.example_py)}</span><br>` : ""}${esc(c.example_en)}</div>` : ""}`;
     el.innerHTML = `<div class="flash" id="fc"><div class="inner">
         <div class="face">${startBack ? back : front}</div><div class="face back">${startBack ? front : back}</div></div></div>
       <div class="row">${speakBtn(set.id, i)}
@@ -250,7 +250,7 @@ function modeTest(set, el) {
       ][kind];
       el.innerHTML = `<p class="muted" style="text-align:center">Question ${n + 1} of ${qs.length}</p>
         <div class="prompt">${prompt}</div>
-        <div class="choices">${opts.map((o, k) => `<button class="choice ${kind === 1 ? "zh" : ""}" data-k="${k}">${html ? pyEn(o) : esc(show(o))}</button>`).join("")}</div>`;
+        <div class="choices">${opts.map((o, k) => `<button class="choice ${kind === 1 ? "zh" : ""}" data-k="${k}">${html ? pyEn(o) : kind === 1 ? `${esc(o.hanzi)}<br><span class="py">${esc(o.pinyin)}</span>` : esc(show(o))}</button>`).join("")}</div>`;
       el.querySelectorAll(".choice").forEach((b) => (b.onclick = () => {
         const ok = opts[b.dataset.k] === c;
         if (ok) score++; else wrong.push(c);
@@ -286,6 +286,7 @@ function modeSentences(set, el) {
       <p class="muted" style="text-align:center">${done} of ${total} done</p>
       <div class="gram" style="text-align:center;max-width:640px;margin:14px auto">
         <div style="font-size:${toEnglish ? 30 : 22}px">${esc(toEnglish ? x.zh : x.en)}</div>
+        ${toEnglish && x.py ? `<div class="py" style="font-size:17px">${esc(x.py)}</div>` : ""}
         ${toEnglish ? `<button class="speak" id="say" title="Listen">🔊</button>` : ""}
       </div>
       <div class="typein" style="max-width:640px"><input id="in" autocomplete="off" placeholder="Write your translation (optional), then show the answer"></div>
@@ -300,6 +301,7 @@ function modeSentences(set, el) {
       el.querySelector("#reveal").remove();
       el.querySelector("#ans").innerHTML = `<div class="gram" style="text-align:center;max-width:640px;margin:0 auto;border-color:var(--good)">
           <div class="muted">Answer</div><div style="font-size:${toEnglish ? 20 : 28}px">${esc(toEnglish ? x.en : x.zh)}</div>
+          ${!toEnglish && x.py ? `<div class="py" style="font-size:17px">${esc(x.py)}</div>` : ""}
           ${toEnglish ? "" : `<button class="speak" id="say2" title="Listen">🔊</button>`}</div>
         <p class="muted" style="text-align:center">Other wordings can be right too. How did you do?</p>
         <div class="row"><button class="btn" id="miss">Practise again</button><button class="btn primary" id="got">I got it</button></div>`;
@@ -316,13 +318,14 @@ function modeSentences(set, el) {
 function modeWords(set, el) {
   el.innerHTML = `<table><tr><th></th><th>Characters</th><th>Pinyin</th><th>English</th></tr>
     ${set.cards.map((c, i) => `<tr><td>${speakBtn(set.id, i)}</td><td class="zh">${esc(c.hanzi)}</td><td>${esc(c.pinyin)}</td>
-      <td>${esc(c.english)}${c.example ? `<div class="muted">${esc(c.example)} ${esc(c.example_en)}</div>` : ""}</td></tr>`).join("")}</table>`;
+      <td>${esc(c.english)}${c.example ? `<div class="muted">${esc(c.example)} ${c.example_py ? `<span class="py">${esc(c.example_py)}</span> ` : ""}${esc(c.example_en)}</div>` : ""}</td></tr>`).join("")}</table>`;
 }
 
 function modeGrammar(set, el) {
   window.speakText = (t) => speak(t);
   el.innerHTML = set.grammar.map((g) => `<div class="gram"><b>${esc(g.pattern)}</b><div>${esc(g.meaning)}</div>
-    ${g.examples.length ? `<ul>${g.examples.map(([zh, en]) => `<li><a href="#" onclick="event.preventDefault();speakText(this.textContent)" title="Listen">${esc(zh)}</a> <span class="muted">${esc(en)}</span></li>`).join("")}</ul>` : ""}</div>`).join("")
+    ${g.examples.length ? `<ul>${g.examples.map(([zh, en, py]) => `<li><a href="#" onclick="event.preventDefault();speakText(this.textContent)" title="Listen">${esc(zh)}</a>
+      ${py ? `<div class="py">${esc(py)}</div>` : ""}<span class="muted">${esc(en)}</span></li>`).join("")}</ul>` : ""}</div>`).join("")
     || `<p class="muted">No grammar notes for this set yet.</p>`;
 }
 
