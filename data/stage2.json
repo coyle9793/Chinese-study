@@ -249,7 +249,8 @@
       ]
      ]
     }
-   ]
+   ],
+   "sentences": []
   },
   {
    "id": "lesson-16",
@@ -558,6 +559,20 @@
      "pattern": "以前 / 以后",
      "meaning": "Before / after. Can go before or after the person.",
      "examples": []
+    }
+   ],
+   "sentences": [
+    {
+     "zh": "我们去看电影了，不过我们不喜欢。",
+     "en": "We went to see the film, but we didn't like it."
+    },
+    {
+     "zh": "我想去图书馆，可是公共汽车坏了。",
+     "en": "I want to go to the library, but the bus has broken down."
+    },
+    {
+     "zh": "我喜欢北京烤鸭，不过我妈妈不喜欢。",
+     "en": "I like Peking duck, but my mum doesn't."
     }
    ]
   },
@@ -895,6 +910,28 @@
       ]
      ]
     }
+   ],
+   "sentences": [
+    {
+     "zh": "学习外语真的不容易。",
+     "en": "Learning a foreign language really isn't easy."
+    },
+    {
+     "zh": "请再写三遍。",
+     "en": "Please write it three more times."
+    },
+    {
+     "zh": "我没去过这家餐厅，不过我听说还不错。",
+     "en": "I've never been to this restaurant, but I hear it's pretty good."
+    },
+    {
+     "zh": "这家店关门了？可是它才开了一个星期。",
+     "en": "This shop has closed? But it's only been open a week."
+    },
+    {
+     "zh": "怪不得你不喜欢披萨。",
+     "en": "No wonder you don't like pizza."
+    }
    ]
   },
   {
@@ -1224,6 +1261,44 @@
        "have a look"
       ]
      ]
+    }
+   ],
+   "sentences": [
+    {
+     "zh": "今天早上九点左右，她正在给她妈妈打电话。",
+     "en": "At around nine this morning, she was on the phone to her mum."
+    },
+    {
+     "zh": "哥哥喜欢一边看电视，一边吃饭。",
+     "en": "My older brother likes to watch TV while he eats."
+    },
+    {
+     "zh": "爸爸说不要一边吃饭，一边说话。",
+     "en": "Dad says don't talk while you're eating."
+    },
+    {
+     "zh": "昨天晚上我回家的时候，看见姐姐正在一边唱歌，一边跳舞。",
+     "en": "When I got home last night, I saw my sister singing and dancing at the same time."
+    },
+    {
+     "zh": "他正在开会，不能接电话。",
+     "en": "He's in a meeting and can't answer the phone."
+    },
+    {
+     "zh": "你能给李老师打电话吗？",
+     "en": "Can you call Teacher Li?"
+    },
+    {
+     "zh": "我正在给她打电话。",
+     "en": "I'm calling her now."
+    },
+    {
+     "zh": "我正在做饭，你能给银行打电话吗？",
+     "en": "I'm cooking right now, can you call the bank?"
+    },
+    {
+     "zh": "我以为你会喜欢这本书，没想到你不喜欢。",
+     "en": "I thought you'd like this book, but you didn't."
     }
    ]
   },
@@ -1579,6 +1654,20 @@
       ]
      ]
     }
+   ],
+   "sentences": [
+    {
+     "zh": "英国每年都从欧洲进口很多水果和蔬菜。",
+     "en": "Every year the UK imports lots of fruit and vegetables from Europe."
+    },
+    {
+     "zh": "我从来不知道你对跳舞这么感兴趣。",
+     "en": "I never knew you were so interested in dancing."
+    },
+    {
+     "zh": "今天的作业你做得不好，因为你没认真地听课。",
+     "en": "You didn't do today's homework well because you didn't listen carefully in class."
+    }
    ]
   },
   {
@@ -1865,6 +1954,52 @@
       ]
      ]
     }
+   ],
+   "sentences": [
+    {
+     "zh": "你买的茶很好喝。",
+     "en": "The tea you bought was very tasty."
+    },
+    {
+     "zh": "你借的书在这儿。",
+     "en": "The book you borrowed is here."
+    },
+    {
+     "zh": "一个我不认识的人来这儿找你了。",
+     "en": "Someone I don't know came here looking for you."
+    },
+    {
+     "zh": "她说中国制造的东西又便宜又好。",
+     "en": "She said things made in China are cheap and good."
+    },
+    {
+     "zh": "我妈妈给我买了一台日本制造的电脑。",
+     "en": "My mum bought me a computer made in Japan."
+    },
+    {
+     "zh": "我去年买的手机现在已经过时了。",
+     "en": "The phone I bought last year is already out of date."
+    },
+    {
+     "zh": "你去过美国吗？",
+     "en": "Have you ever been to the US?"
+    },
+    {
+     "zh": "你以前吃过意大利菜吗？",
+     "en": "Have you tried Italian food before?"
+    },
+    {
+     "zh": "我吃完午饭就去看足球比赛了。",
+     "en": "After I had lunch, I went to watch a football match."
+    },
+    {
+     "zh": "我买了三本字典。",
+     "en": "I bought three dictionaries."
+    },
+    {
+     "zh": "别让他再去图书馆了，他今天已经去过三次了！",
+     "en": "Don't make him go to the library again. He's already been three times today!"
+    }
    ]
   },
   {
@@ -2066,6 +2201,141 @@
        "She left the book at home."
       ]
      ]
+    }
+   ],
+   "sentences": []
+  },
+  {
+   "id": "le-practice",
+   "title": "了 translation practice",
+   "source": "了的翻译练习",
+   "cards": [],
+   "grammar": [
+    {
+     "pattern": "Verb + 了",
+     "meaning": "The action is completed (often with a number: 喝了三杯).",
+     "examples": [
+      [
+       "他昨天看了一本书。",
+       "He read a book yesterday."
+      ]
+     ]
+    },
+    {
+     "pattern": "Sentence + 了",
+     "meaning": "A change of state: it is now the case that... (不 + 了 = not anymore).",
+     "examples": [
+      [
+       "现在冷了。",
+       "It has become cold now."
+      ],
+      [
+       "我不喜欢喝咖啡了。",
+       "I don't like coffee anymore."
+      ]
+     ]
+    },
+    {
+     "pattern": "没 + verb (no 了)",
+     "meaning": "Didn't / haven't done something. 了 is dropped in the negative.",
+     "examples": [
+      [
+       "我没吃早饭。",
+       "I didn't eat breakfast."
+      ]
+     ]
+    },
+    {
+     "pattern": "Habits use no 了",
+     "meaning": "Things that happen regularly (每天, 常常) don't take 了.",
+     "examples": [
+      [
+       "我每天都喝咖啡。",
+       "I drink coffee every day."
+      ]
+     ]
+    }
+   ],
+   "sentences": [
+    {
+     "zh": "我每天都喝咖啡。",
+     "en": "I drink coffee every day."
+    },
+    {
+     "zh": "我今天喝了三杯咖啡。",
+     "en": "I drank 3 cups of coffee today."
+    },
+    {
+     "zh": "他喜欢看书。",
+     "en": "He likes reading."
+    },
+    {
+     "zh": "他昨天看了一本书。",
+     "en": "He read a book yesterday."
+    },
+    {
+     "zh": "今天很冷。",
+     "en": "It is very cold today."
+    },
+    {
+     "zh": "现在冷了。",
+     "en": "It has become cold now."
+    },
+    {
+     "zh": "她每天早上去上学。",
+     "en": "She goes to school every morning."
+    },
+    {
+     "zh": "她去上学了。",
+     "en": "She went to school."
+    },
+    {
+     "zh": "他是大学生。",
+     "en": "He is a university student."
+    },
+    {
+     "zh": "他不是小孩子了。",
+     "en": "He is not a kid anymore."
+    },
+    {
+     "zh": "我以前喜欢喝咖啡。",
+     "en": "I used to like coffee."
+    },
+    {
+     "zh": "我不喜欢喝咖啡了。",
+     "en": "I don't like coffee anymore."
+    },
+    {
+     "zh": "我没吃早饭。",
+     "en": "I didn't eat breakfast."
+    },
+    {
+     "zh": "我买了三本书。",
+     "en": "I bought 3 books."
+    },
+    {
+     "zh": "不冷了。",
+     "en": "It's not cold anymore."
+    },
+    {
+     "zh": "她昨天晚上看了一场足球比赛。",
+     "en": "She watched a football match last night."
+    },
+    {
+     "zh": "她今天早上没喝咖啡。",
+     "en": "She didn't drink coffee this morning."
+    },
+    {
+     "zh": "她现在已经喝了三杯咖啡了。",
+     "en": "Now she has had 3 cups of coffee."
+    },
+    {
+     "zh": "我还没吃早饭呢。",
+     "en": "I haven't had breakfast yet."
+    },
+    {
+     "zh": "他不是学生了。",
+     "en": "He is not a student anymore."
     }
    ]
   }

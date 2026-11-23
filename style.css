@@ -56,3 +56,4 @@ td.zh{font-size:22px;white-space:nowrap}
 .tilem.wrong{background:var(--bad-soft);border-color:var(--bad)}
 .done{text-align:center;padding:30px;background:var(--card);border:1px solid var(--line);border-radius:16px;margin-top:16px}
 @media (max-width:520px){.hanzi{font-size:56px}.choices{grid-template-columns:1fr}.flash{height:260px}}
+.py{color:var(--accent);font-size:15px}

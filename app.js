@@ -37,14 +37,28 @@ function speak(text, audioUrl) {
 window.speakCard = (i, setId) => { const c = findSet(setId).cards[i]; speak(c.hanzi, c.audio); };
 const speakBtn = (setId, i) => `<button class="speak" title="Listen" onclick="event.stopPropagation();speakCard(${i},'${setId}')">🔊</button>`;
 
+// Answer text showing pinyin above the English meaning
+const pyEn = (c) => `<span class="py">${esc(c.pinyin)}</span><br>${esc(c.english)}`;
+
 // ---------- routing ----------
 const findSet = (id) => SETS.find((s) => s.id === id);
-const MODES = [["cards", "Flashcards"], ["learn", "Learn"], ["match", "Match"], ["test", "Test"], ["words", "Word list"], ["grammar", "Grammar"]];
+const MODES = [["cards", "Flashcards"], ["learn", "Learn"], ["match", "Match"], ["test", "Test"], ["sentences", "Translate sentences"], ["words", "Word list"], ["grammar", "Grammar"]];
+const CARD_MODES = ["cards", "learn", "match", "test", "words"];
+const modesFor = (set) => MODES.filter(([m]) => (m === "sentences" ? sentencesOf(set).length : !CARD_MODES.includes(m) || set.cards.length));
+// Sentences to translate: the set's own list, plus every example sentence in its cards and grammar notes.
+function sentencesOf(set) {
+  const seen = new Set(), out = [];
+  const add = (zh, en) => { if (zh && en && zh.length >= 4 && /[。？！]$/.test(zh) && !seen.has(zh)) { seen.add(zh); out.push({ zh, en }); } };
+  (set.sentences || []).forEach((x) => add(x.zh, x.en));
+  set.grammar.forEach((g) => g.examples.forEach(([zh, en]) => add(zh, en)));
+  set.cards.forEach((c) => add(c.example, c.example_en));
+  return out;
+}
 
 function route() {
   speechSynthesis?.cancel?.();
   const [, page, id, mode] = location.hash.split("/");
-  if (page === "set" && findSet(id)) return renderSet(findSet(id), mode || "cards");
+  if (page === "set" && findSet(id)) { const set = findSet(id), ms = modesFor(set).map(([m]) => m); return renderSet(set, ms.includes(mode) ? mode : ms[0]); }
   renderHome();
 }
 
@@ -54,19 +68,19 @@ function renderHome() {
   app.innerHTML = `<h1>What do you want to study?</h1>
     <p class="muted">Pick a set to use flashcards, Learn mode, games and grammar notes.</p>
     ${Object.entries(groups).map(([course, sets]) => `<h2>${esc(course)}</h2><div class="grid">
-      ${sets.map((s) => `<a class="tile" href="#/set/${s.id}/cards"><b>${esc(s.title)}</b>
-        <small>${s.cards.length} words · ${s.grammar.length} grammar points</small>
-        <div style="font-size:24px;margin-top:8px">${s.cards.slice(0, 4).map((c) => esc(c.hanzi)).join(" ")}</div></a>`).join("")}
+      ${sets.map((s) => `<a class="tile" href="#/set/${s.id}/${modesFor(s)[0][0]}"><b>${esc(s.title)}</b>
+        <small>${[s.cards.length && s.cards.length + " words", sentencesOf(s).length + " sentences", s.grammar.length + " grammar points"].filter(Boolean).join(" · ")}</small>
+        <div style="font-size:24px;margin-top:8px">${s.cards.length ? s.cards.slice(0, 4).map((c) => esc(c.hanzi)).join(" ") : esc(sentencesOf(s)[0]?.zh || "")}</div></a>`).join("")}
     </div>`).join("")}`;
 }
 
 function renderSet(set, mode) {
   app.innerHTML = `<a href="#/" class="muted">← All sets</a>
     <h1>${esc(set.title)}</h1><p class="muted">${esc(set.course)} · from ${esc(set.source)}</p>
-    <nav class="tabs">${MODES.map(([m, label]) => `<a href="#/set/${set.id}/${m}" class="${m === mode ? "on" : ""}">${label}</a>`).join("")}</nav>
+    <nav class="tabs">${modesFor(set).map(([m, label]) => `<a href="#/set/${set.id}/${m}" class="${m === mode ? "on" : ""}">${label}</a>`).join("")}</nav>
     <section id="mode"></section>`;
   const el = document.getElementById("mode");
-  ({ cards: modeCards, learn: modeLearn, match: modeMatch, test: modeTest, words: modeWords, grammar: modeGrammar }[mode] || modeCards)(set, el);
+  ({ cards: modeCards, learn: modeLearn, match: modeMatch, test: modeTest, sentences: modeSentences, words: modeWords, grammar: modeGrammar }[mode] || modeCards)(set, el);
 }
 
 // ---------- Flashcards ----------
@@ -158,7 +172,7 @@ function modeLearn(set, el) {
       el.innerHTML = header() + `<div class="prompt">${forward
           ? `<div class="hanzi">${esc(c.hanzi)}</div>${speakBtn(set.id, i)}<p class="muted">What does this mean?</p>`
           : `<div class="eng" style="font-size:28px">${esc(c.english)}</div><p class="muted">Which characters mean this?</p>`}</div>
-        <div class="choices">${opts.map((o, k) => `<button class="choice ${forward ? "" : "zh"}" data-k="${k}">${esc(forward ? o.english : o.hanzi)}</button>`).join("")}</div>
+        <div class="choices">${opts.map((o, k) => `<button class="choice ${forward ? "" : "zh"}" data-k="${k}">${forward ? pyEn(o) : esc(o.hanzi)}</button>`).join("")}</div>
         <div class="feedback"></div>`;
       el.querySelectorAll(".choice").forEach((b) => (b.onclick = () => {
         const ok = opts[b.dataset.k] === c;
@@ -229,14 +243,14 @@ function modeTest(set, el) {
       }
       const { c, kind } = qs[n];
       const opts = shuffle([c, ...pick(set.cards, 3, c)]);
-      const [prompt, show] = [
-        [`<div class="hanzi">${esc(c.hanzi)}</div><p class="muted">Choose the meaning</p>`, (o) => o.english],
+      const [prompt, show, html] = [
+        [`<div class="hanzi">${esc(c.hanzi)}</div><p class="muted">Choose the meaning</p>`, (o) => o, true],
         [`<div class="eng" style="font-size:28px">${esc(c.english)}</div><p class="muted">Choose the characters</p>`, (o) => o.hanzi],
         [`<div class="hanzi">${esc(c.hanzi)}</div><p class="muted">Choose the pinyin</p>`, (o) => o.pinyin],
       ][kind];
       el.innerHTML = `<p class="muted" style="text-align:center">Question ${n + 1} of ${qs.length}</p>
         <div class="prompt">${prompt}</div>
-        <div class="choices">${opts.map((o, k) => `<button class="choice ${kind === 1 ? "zh" : ""}" data-k="${k}">${esc(show(o))}</button>`).join("")}</div>`;
+        <div class="choices">${opts.map((o, k) => `<button class="choice ${kind === 1 ? "zh" : ""}" data-k="${k}">${html ? pyEn(o) : esc(show(o))}</button>`).join("")}</div>`;
       el.querySelectorAll(".choice").forEach((b) => (b.onclick = () => {
         const ok = opts[b.dataset.k] === c;
         if (ok) score++; else wrong.push(c);
@@ -248,6 +262,52 @@ function modeTest(set, el) {
       }));
     };
     q();
+  };
+  start();
+}
+
+// ---------- Translate sentences ----------
+// Shows a whole sentence; the student writes their own translation, then reveals the answer
+// and marks themselves. Sentences marked "practise again" come back at the end.
+function modeSentences(set, el) {
+  const all = sentencesOf(set);
+  let toEnglish = store.get("toEnglish", true), queue, done, total;
+  const start = () => { queue = shuffle(all); done = 0; total = all.length; show(); };
+  const show = () => {
+    if (!queue.length) {
+      el.innerHTML = `<div class="done"><h2>🎉 All ${total} sentences done!</h2><button class="btn primary" id="again">Go again</button></div>`;
+      el.querySelector("#again").onclick = start;
+      return;
+    }
+    const x = queue[0];
+    el.innerHTML = `<div class="row"><button class="btn ${toEnglish ? "primary" : ""}" id="d1">Chinese → English</button>
+        <button class="btn ${toEnglish ? "" : "primary"}" id="d2">English → Chinese</button></div>
+      <div class="bar"><i style="width:${(100 * done) / total}%"></i></div>
+      <p class="muted" style="text-align:center">${done} of ${total} done</p>
+      <div class="gram" style="text-align:center;max-width:640px;margin:14px auto">
+        <div style="font-size:${toEnglish ? 30 : 22}px">${esc(toEnglish ? x.zh : x.en)}</div>
+        ${toEnglish ? `<button class="speak" id="say" title="Listen">🔊</button>` : ""}
+      </div>
+      <div class="typein" style="max-width:640px"><input id="in" autocomplete="off" placeholder="Write your translation (optional), then show the answer"></div>
+      <div class="row"><button class="btn primary" id="reveal">Show answer</button></div>
+      <div id="ans"></div>`;
+    el.querySelector("#d1").onclick = () => { toEnglish = true; store.set("toEnglish", true); show(); };
+    el.querySelector("#d2").onclick = () => { toEnglish = false; store.set("toEnglish", false); show(); };
+    el.querySelector("#say")?.addEventListener("click", () => speak(x.zh));
+    el.querySelector("#in").focus();
+    el.querySelector("#in").onkeydown = (e) => { if (e.key === "Enter") el.querySelector("#reveal").click(); };
+    el.querySelector("#reveal").onclick = () => {
+      el.querySelector("#reveal").remove();
+      el.querySelector("#ans").innerHTML = `<div class="gram" style="text-align:center;max-width:640px;margin:0 auto;border-color:var(--good)">
+          <div class="muted">Answer</div><div style="font-size:${toEnglish ? 20 : 28}px">${esc(toEnglish ? x.en : x.zh)}</div>
+          ${toEnglish ? "" : `<button class="speak" id="say2" title="Listen">🔊</button>`}</div>
+        <p class="muted" style="text-align:center">Other wordings can be right too. How did you do?</p>
+        <div class="row"><button class="btn" id="miss">Practise again</button><button class="btn primary" id="got">I got it</button></div>`;
+      el.querySelector("#say2")?.addEventListener("click", () => speak(x.zh));
+      if (!toEnglish) speak(x.zh);
+      el.querySelector("#got").onclick = () => { queue.shift(); done++; show(); };
+      el.querySelector("#miss").onclick = () => { queue.push(queue.shift()); show(); };
+    };
   };
   start();
 }
