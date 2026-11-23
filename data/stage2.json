@@ -1,0 +1,2073 @@
+{
+ "course": "Chinese Stage 2",
+ "sets": [
+  {
+   "id": "revision-transport",
+   "title": "Revision: Getting around",
+   "source": "2-1B, Seminar A week 2",
+   "cards": [
+    {
+     "hanzi": "商店",
+     "pinyin": "shāngdiàn",
+     "english": "shop",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "图书馆",
+     "pinyin": "túshūguǎn",
+     "english": "library",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "回家",
+     "pinyin": "huí jiā",
+     "english": "go home",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "大学",
+     "pinyin": "dàxué",
+     "english": "university",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "咖啡店",
+     "pinyin": "kāfēidiàn",
+     "english": "café",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "书店",
+     "pinyin": "shūdiàn",
+     "english": "bookshop",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "开车",
+     "pinyin": "kāi chē",
+     "english": "drive (a car)",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "公共汽车",
+     "pinyin": "gōnggòng qìchē",
+     "english": "bus",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "火车",
+     "pinyin": "huǒchē",
+     "english": "train",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "火车站",
+     "pinyin": "huǒchēzhàn",
+     "english": "train station",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "地铁",
+     "pinyin": "dìtiě",
+     "english": "underground, metro",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "飞机",
+     "pinyin": "fēijī",
+     "english": "plane",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "飞机场",
+     "pinyin": "fēijīchǎng",
+     "english": "airport",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "自己",
+     "pinyin": "zìjǐ",
+     "english": "oneself, self",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "自行车",
+     "pinyin": "zìxíngchē",
+     "english": "bicycle",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "骑自行车",
+     "pinyin": "qí zìxíngchē",
+     "english": "ride a bicycle",
+     "example": "我每天都骑车去大学。",
+     "example_en": "I cycle to the university every day."
+    },
+    {
+     "hanzi": "骑车",
+     "pinyin": "qí chē",
+     "english": "cycle, ride a bike",
+     "example": "我们一起骑车，好吗？",
+     "example_en": "Shall we cycle together?"
+    },
+    {
+     "hanzi": "出租车",
+     "pinyin": "chūzūchē",
+     "english": "taxi",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "打的",
+     "pinyin": "dǎ dī",
+     "english": "take a taxi",
+     "example": "我不想打的。",
+     "example_en": "I don't want to take a taxi."
+    },
+    {
+     "hanzi": "走路",
+     "pinyin": "zǒu lù",
+     "english": "walk",
+     "example": "我早上走路去大学。",
+     "example_en": "I walk to the university in the morning."
+    },
+    {
+     "hanzi": "走",
+     "pinyin": "zǒu",
+     "english": "walk; leave",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "坐",
+     "pinyin": "zuò",
+     "english": "sit; travel by (bus, train, plane)",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "离",
+     "pinyin": "lí",
+     "english": "(distance) from",
+     "example": "我家离学校很近。",
+     "example_en": "My home is close to school."
+    },
+    {
+     "hanzi": "远",
+     "pinyin": "yuǎn",
+     "english": "far",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "近",
+     "pinyin": "jìn",
+     "english": "near, close",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "出生",
+     "pinyin": "chūshēng",
+     "english": "be born",
+     "example": "我是在香港出生的。",
+     "example_en": "I was born in Hong Kong."
+    },
+    {
+     "hanzi": "久仰",
+     "pinyin": "jiǔyǎng",
+     "english": "I've long looked forward to meeting you",
+     "example": "",
+     "example_en": ""
+    }
+   ],
+   "grammar": [
+    {
+     "pattern": "Person + 坐 + transport + 去/来 + place",
+     "meaning": "Someone travels to a place by bus, train, etc.",
+     "examples": [
+      [
+       "他坐火车去伦敦。",
+       "He goes to London by train."
+      ]
+     ]
+    },
+    {
+     "pattern": "Person + 骑自行车/开车/走路 + 去/来 + place",
+     "meaning": "Someone cycles, drives or walks to a place.",
+     "examples": [
+      [
+       "我早上走路去大学。",
+       "I walk to the university in the morning."
+      ]
+     ]
+    },
+    {
+     "pattern": "Person (+ 是) + verb + 的",
+     "meaning": "Emphasises how, when or where a past action happened. Whatever comes right after 是 is emphasised.",
+     "examples": [
+      [
+       "他是昨天去伦敦的。",
+       "It was yesterday that he went to London."
+      ],
+      [
+       "他是坐火车去伦敦的。",
+       "It was by train that he went to London."
+      ],
+      [
+       "你是怎么来的？",
+       "How did you get here?"
+      ]
+     ]
+    },
+    {
+     "pattern": "Place 1 + 离 + Place 2 + 很远/很近",
+     "meaning": "Place 1 is far from / close to Place 2.",
+     "examples": [
+      [
+       "美国离中国很远。",
+       "America is far from China."
+      ],
+      [
+       "你家离学校远不远？",
+       "Is your home far from school?"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lesson-16",
+   "title": "Lesson 16",
+   "source": "2-2A, Seminar B week 2",
+   "cards": [
+    {
+     "hanzi": "让",
+     "pinyin": "ràng",
+     "english": "make, let, ask, allow",
+     "example": "让你久等了。",
+     "example_en": "Sorry to keep you waiting."
+    },
+    {
+     "hanzi": "等",
+     "pinyin": "děng",
+     "english": "wait",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "久",
+     "pinyin": "jiǔ",
+     "english": "a long time",
+     "example": "我等了很久。",
+     "example_en": "I waited for a long time."
+    },
+    {
+     "hanzi": "长",
+     "pinyin": "cháng",
+     "english": "long",
+     "example": "我等了很长时间。",
+     "example_en": "I waited for a long time."
+    },
+    {
+     "hanzi": "时间",
+     "pinyin": "shíjiān",
+     "english": "time",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "多长",
+     "pinyin": "duō cháng",
+     "english": "how long",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "刚",
+     "pinyin": "gāng",
+     "english": "just (happened)",
+     "example": "我刚回杜伦。",
+     "example_en": "I just got back to Durham."
+    },
+    {
+     "hanzi": "坏",
+     "pinyin": "huài",
+     "english": "broken, bad, gone off",
+     "example": "我的电脑坏了。",
+     "example_en": "My computer has broken."
+    },
+    {
+     "hanzi": "一定",
+     "pinyin": "yídìng",
+     "english": "must, surely, definitely",
+     "example": "你一定是我妈妈的朋友。",
+     "example_en": "You must be my mum's friend."
+    },
+    {
+     "hanzi": "花",
+     "pinyin": "huā",
+     "english": "spend (money, time); flower",
+     "example": "今年夏天我花了很多钱。",
+     "example_en": "I spent a lot of money this summer."
+    },
+    {
+     "hanzi": "爱",
+     "pinyin": "ài",
+     "english": "love",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "常常",
+     "pinyin": "chángcháng",
+     "english": "often",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "经常",
+     "pinyin": "jīngcháng",
+     "english": "often, frequently",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "通常",
+     "pinyin": "tōngcháng",
+     "english": "usually, normally",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "很少",
+     "pinyin": "hěn shǎo",
+     "english": "seldom, rarely",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "有时候",
+     "pinyin": "yǒu shíhou",
+     "english": "sometimes",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "总是",
+     "pinyin": "zǒngshì",
+     "english": "always",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "从不",
+     "pinyin": "cóng bù",
+     "english": "never",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "离开",
+     "pinyin": "líkāi",
+     "english": "leave, depart",
+     "example": "他们离开了。",
+     "example_en": "They have left."
+    },
+    {
+     "hanzi": "需要",
+     "pinyin": "xūyào",
+     "english": "need, require",
+     "example": "你需要什么？",
+     "example_en": "What do you need?"
+    },
+    {
+     "hanzi": "看来",
+     "pinyin": "kànlái",
+     "english": "it looks like, it seems",
+     "example": "看来你们真的喜欢学中文。",
+     "example_en": "It looks like you really like studying Chinese."
+    },
+    {
+     "hanzi": "真的",
+     "pinyin": "zhēnde",
+     "english": "really, truly",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "比赛",
+     "pinyin": "bǐsài",
+     "english": "match, competition",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "上半场",
+     "pinyin": "shàngbànchǎng",
+     "english": "first half (of a match)",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "下半场",
+     "pinyin": "xiàbànchǎng",
+     "english": "second half (of a match)",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "一半",
+     "pinyin": "yíbàn",
+     "english": "half",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "不过",
+     "pinyin": "búguò",
+     "english": "but, however (softer)",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "以前",
+     "pinyin": "yǐqián",
+     "english": "before, previously",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "以后",
+     "pinyin": "yǐhòu",
+     "english": "after, later",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "因为",
+     "pinyin": "yīnwèi",
+     "english": "because",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "所以",
+     "pinyin": "suǒyǐ",
+     "english": "so, therefore",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "没关系",
+     "pinyin": "méi guānxi",
+     "english": "it doesn't matter, no problem",
+     "example": "",
+     "example_en": ""
+    }
+   ],
+   "grammar": [
+    {
+     "pattern": "Person A + 让 + Person B + do something",
+     "meaning": "A makes / lets / asks B do something.",
+     "examples": [
+      [
+       "让你久等了。",
+       "Sorry to keep you waiting."
+      ]
+     ]
+    },
+    {
+     "pattern": "Person + verb + 了多长时间 + (object)？",
+     "meaning": "How long did someone do something?",
+     "examples": [
+      [
+       "你坐了多长时间（公共汽车）？",
+       "How long were you on the bus?"
+      ],
+      [
+       "我坐了一个多小时。",
+       "I was on it for over an hour."
+      ]
+     ]
+    },
+    {
+     "pattern": "Person + do something + 多长时间了？",
+     "meaning": "How long has someone been doing something (and still is)?",
+     "examples": []
+    },
+    {
+     "pattern": "Person + do something + 要多长时间？",
+     "meaning": "How long does it take to do something?",
+     "examples": []
+    },
+    {
+     "pattern": "一定要 + do something",
+     "meaning": "Must do something.",
+     "examples": [
+      [
+       "你一定要来看我们。",
+       "You must come and see us."
+      ]
+     ]
+    },
+    {
+     "pattern": "Verb + 了没有？ / Verb 没 Verb？",
+     "meaning": "Asking whether something happened.",
+     "examples": [
+      [
+       "你吃饭了没有？",
+       "Have you eaten?"
+      ],
+      [
+       "你昨天去没去看足球比赛？",
+       "Did you go to watch the football match yesterday?"
+      ]
+     ]
+    },
+    {
+     "pattern": "因为 A，所以 B",
+     "meaning": "Because A, therefore B.",
+     "examples": [
+      [
+       "因为我有一个中国女朋友，所以我想学中文。",
+       "Because I have a Chinese girlfriend, I want to learn Chinese."
+      ],
+      [
+       "因为那里太远了，所以我不想去。",
+       "Because it's too far, I don't want to go."
+      ]
+     ]
+    },
+    {
+     "pattern": "以前 / 以后",
+     "meaning": "Before / after. Can go before or after the person.",
+     "examples": []
+    }
+   ]
+  },
+  {
+   "id": "lesson-17",
+   "title": "Lesson 17",
+   "source": "2-3A, 2-3B",
+   "cards": [
+    {
+     "hanzi": "跳舞",
+     "pinyin": "tiàowǔ",
+     "english": "dance",
+     "example": "他们舞跳得很好。",
+     "example_en": "They dance very well."
+    },
+    {
+     "hanzi": "唱歌",
+     "pinyin": "chànggē",
+     "english": "sing",
+     "example": "她歌唱得很好。",
+     "example_en": "She sings very well."
+    },
+    {
+     "hanzi": "表演",
+     "pinyin": "biǎoyǎn",
+     "english": "perform; performance",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "成功",
+     "pinyin": "chénggōng",
+     "english": "success; successful",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "容易",
+     "pinyin": "róngyì",
+     "english": "easy",
+     "example": "学习外语真的不容易。",
+     "example_en": "Learning a foreign language really isn't easy."
+    },
+    {
+     "hanzi": "晚会",
+     "pinyin": "wǎnhuì",
+     "english": "evening party",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "开晚会",
+     "pinyin": "kāi wǎnhuì",
+     "english": "hold an evening party",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "派对",
+     "pinyin": "pàiduì",
+     "english": "party",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "信",
+     "pinyin": "xìn",
+     "english": "believe; letter",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "相信",
+     "pinyin": "xiāngxìn",
+     "english": "believe, trust",
+     "example": "你不相信吗？",
+     "example_en": "You don't believe it?"
+    },
+    {
+     "hanzi": "流利",
+     "pinyin": "liúlì",
+     "english": "fluent",
+     "example": "我们中文说得很流利。",
+     "example_en": "We speak Chinese very fluently."
+    },
+    {
+     "hanzi": "不错",
+     "pinyin": "búcuò",
+     "english": "not bad, pretty good",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "错",
+     "pinyin": "cuò",
+     "english": "wrong",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "普通",
+     "pinyin": "pǔtōng",
+     "english": "ordinary, common",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "普通话",
+     "pinyin": "pǔtōnghuà",
+     "english": "Mandarin",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "功夫",
+     "pinyin": "gōngfu",
+     "english": "kung fu, martial arts",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "懂",
+     "pinyin": "dǒng",
+     "english": "understand",
+     "example": "你懂了吗？",
+     "example_en": "Do you understand?"
+    },
+    {
+     "hanzi": "怪不得",
+     "pinyin": "guàibude",
+     "english": "no wonder",
+     "example": "怪不得你的中文这么好。",
+     "example_en": "No wonder your Chinese is so good."
+    },
+    {
+     "hanzi": "难怪",
+     "pinyin": "nánguài",
+     "english": "no wonder",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "才",
+     "pinyin": "cái",
+     "english": "only; not until",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "就",
+     "pinyin": "jiù",
+     "english": "only; as early as; right away",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "极",
+     "pinyin": "jí",
+     "english": "extremely",
+     "example": "漂亮极了！",
+     "example_en": "Extremely beautiful!"
+    },
+    {
+     "hanzi": "从来不",
+     "pinyin": "cónglái bù",
+     "english": "never",
+     "example": "我从来不知道你会中国功夫。",
+     "example_en": "I never knew you could do kung fu."
+    },
+    {
+     "hanzi": "得",
+     "pinyin": "de",
+     "english": "particle linking a verb to how well it's done",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "跟",
+     "pinyin": "gēn",
+     "english": "with; and",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "啊",
+     "pinyin": "a",
+     "english": "particle for exclamations",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "回头见",
+     "pinyin": "huítóu jiàn",
+     "english": "see you later",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "遍",
+     "pinyin": "biàn",
+     "english": "time (counts repeats of an action)",
+     "example": "请再说一遍。",
+     "example_en": "Please say it again."
+    },
+    {
+     "hanzi": "还",
+     "pinyin": "hái",
+     "english": "still; also",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "不怎么样",
+     "pinyin": "bù zěnmeyàng",
+     "english": "not very good",
+     "example": "我跳得不怎么样。",
+     "example_en": "I'm not very good at dancing."
+    },
+    {
+     "hanzi": "早就",
+     "pinyin": "zǎo jiù",
+     "english": "long ago, already",
+     "example": "我早就想认识你了。",
+     "example_en": "I've wanted to meet you for ages."
+    }
+   ],
+   "grammar": [
+    {
+     "pattern": "Person + (verb) noun + verb + 得 + adjective",
+     "meaning": "Describes how well an action is done.",
+     "examples": [
+      [
+       "你（说）中文说得很好。",
+       "You speak Chinese very well."
+      ],
+      [
+       "妈妈饭做得很好吃。",
+       "Mum's cooking is delicious."
+      ],
+      [
+       "你说得太快了。",
+       "You're speaking too fast."
+      ]
+     ]
+    },
+    {
+     "pattern": "的 / 地 / 得",
+     "meaning": "的 goes before nouns (我妹妹的书). 地 goes before verbs to say how (很慢地走). 得 goes after verbs to say how well (他走得很慢).",
+     "examples": [
+      [
+       "她高兴地说……",
+       "She said happily..."
+      ],
+      [
+       "他累得不想吃饭。",
+       "He's so tired he doesn't want to eat."
+      ]
+     ]
+    },
+    {
+     "pattern": "Adjective + 极了",
+     "meaning": "Extremely + adjective.",
+     "examples": [
+      [
+       "冷极了！",
+       "It's freezing!"
+      ]
+     ]
+    },
+    {
+     "pattern": "才 vs 就 (only)",
+     "meaning": "就 = only this thing. 才 = only this person.",
+     "examples": [
+      [
+       "我哥哥就会说英语。",
+       "My brother only speaks English (no other languages)."
+      ],
+      [
+       "我哥哥才会说英语。",
+       "Only my brother speaks English (not me)."
+      ]
+     ]
+    },
+    {
+     "pattern": "Time + 就 / 才 + verb",
+     "meaning": "就 = earlier or faster than expected. 才 = later or slower than expected.",
+     "examples": [
+      [
+       "早晨9点上课，他7点半就来了。",
+       "Class starts at 9, and he arrived as early as 7:30."
+      ],
+      [
+       "电影7点才开始。",
+       "The film doesn't start until 7."
+      ]
+     ]
+    },
+    {
+     "pattern": "Person + 从来不 / 从来没 + verb (过)",
+     "meaning": "Never does / has never done something.",
+     "examples": [
+      [
+       "我从来没去过中国。",
+       "I've never been to China."
+      ]
+     ]
+    },
+    {
+     "pattern": "Person + 早就想 + do something + 了",
+     "meaning": "Have wanted to do something for a long time (and finally can).",
+     "examples": [
+      [
+       "我哥哥早就想去日本了。",
+       "My brother has wanted to go to Japan for ages."
+      ]
+     ]
+    },
+    {
+     "pattern": "Person A + 跟 + Person B + verb",
+     "meaning": "Do something with someone.",
+     "examples": [
+      [
+       "我跟哥哥都喜欢吃意大利菜。",
+       "My brother and I both like Italian food."
+      ]
+     ]
+    },
+    {
+     "pattern": "也 vs 和/跟",
+     "meaning": "也 (also) goes before verbs and adjectives. 和/跟 (and) only links nouns.",
+     "examples": [
+      [
+       "我爸爸是老师，我也是老师。",
+       "My dad is a teacher, and I'm a teacher too."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lesson-18",
+   "title": "Lesson 18",
+   "source": "2-4A, 2-4B",
+   "cards": [
+    {
+     "hanzi": "在",
+     "pinyin": "zài",
+     "english": "be doing (ongoing); at, in",
+     "example": "我在看电视。",
+     "example_en": "I'm watching TV."
+    },
+    {
+     "hanzi": "正在",
+     "pinyin": "zhèngzài",
+     "english": "in the middle of doing",
+     "example": "我正在看书。",
+     "example_en": "I'm reading right now."
+    },
+    {
+     "hanzi": "练习",
+     "pinyin": "liànxí",
+     "english": "practise; exercise",
+     "example": "我在做练习。",
+     "example_en": "I'm doing exercises."
+    },
+    {
+     "hanzi": "电话",
+     "pinyin": "diànhuà",
+     "english": "telephone",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "打电话",
+     "pinyin": "dǎ diànhuà",
+     "english": "make a phone call",
+     "example": "你给谁打电话？",
+     "example_en": "Who are you calling?"
+    },
+    {
+     "hanzi": "接电话",
+     "pinyin": "jiē diànhuà",
+     "english": "answer the phone",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "给",
+     "pinyin": "gěi",
+     "english": "to, for; give",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "用",
+     "pinyin": "yòng",
+     "english": "use",
+     "example": "他用手机打电话。",
+     "example_en": "He makes calls on his mobile."
+    },
+    {
+     "hanzi": "写信",
+     "pinyin": "xiě xìn",
+     "english": "write a letter",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "邮件",
+     "pinyin": "yóujiàn",
+     "english": "email",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "发",
+     "pinyin": "fā",
+     "english": "send",
+     "example": "给我发邮件吧。",
+     "example_en": "Send me an email."
+    },
+    {
+     "hanzi": "情书",
+     "pinyin": "qíngshū",
+     "english": "love letter",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "帮",
+     "pinyin": "bāng",
+     "english": "help",
+     "example": "我帮我妈妈做饭。",
+     "example_en": "I help my mum cook."
+    },
+    {
+     "hanzi": "以为",
+     "pinyin": "yǐwéi",
+     "english": "thought (wrongly)",
+     "example": "对不起，我以为这是我的书。",
+     "example_en": "Sorry, I thought this was my book."
+    },
+    {
+     "hanzi": "睡觉",
+     "pinyin": "shuìjiào",
+     "english": "sleep, go to bed",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "其实",
+     "pinyin": "qíshí",
+     "english": "actually, in fact",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "上网",
+     "pinyin": "shàng wǎng",
+     "english": "go online",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "打工",
+     "pinyin": "dǎ gōng",
+     "english": "work a part-time job",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "一边",
+     "pinyin": "yìbiān",
+     "english": "while (doing two things at once)",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "准备",
+     "pinyin": "zhǔnbèi",
+     "english": "prepare",
+     "example": "我正在准备考试。",
+     "example_en": "I'm preparing for an exam."
+    },
+    {
+     "hanzi": "考试",
+     "pinyin": "kǎoshì",
+     "english": "exam; take an exam",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "口语",
+     "pinyin": "kǒuyǔ",
+     "english": "spoken language, oral",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "口试",
+     "pinyin": "kǒushì",
+     "english": "oral exam",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "听力",
+     "pinyin": "tīnglì",
+     "english": "listening",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "笔试",
+     "pinyin": "bǐshì",
+     "english": "written exam",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "借",
+     "pinyin": "jiè",
+     "english": "borrow; lend",
+     "example": "我想借你的手机用一下。",
+     "example_en": "Can I borrow your phone for a moment?"
+    },
+    {
+     "hanzi": "还",
+     "pinyin": "huán",
+     "english": "give back, return",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "电子",
+     "pinyin": "diànzǐ",
+     "english": "electronic",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "字典",
+     "pinyin": "zìdiǎn",
+     "english": "dictionary",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "网络",
+     "pinyin": "wǎngluò",
+     "english": "internet, network",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "最近",
+     "pinyin": "zuìjìn",
+     "english": "recently",
+     "example": "你最近在忙什么？",
+     "example_en": "What have you been busy with recently?"
+    },
+    {
+     "hanzi": "一下",
+     "pinyin": "yíxià",
+     "english": "(do something) briefly",
+     "example": "介绍一下",
+     "example_en": "introduce briefly"
+    },
+    {
+     "hanzi": "对了",
+     "pinyin": "duì le",
+     "english": "oh yes, by the way",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "问题",
+     "pinyin": "wèntí",
+     "english": "question, problem",
+     "example": "我有个问题。",
+     "example_en": "I have a question."
+    }
+   ],
+   "grammar": [
+    {
+     "pattern": "Person + 在 / 正在 + verb",
+     "meaning": "Something is happening right now. 正在 stresses that it's happening right now.",
+     "examples": [
+      [
+       "你在干什么呢？",
+       "What are you doing?"
+      ],
+      [
+       "我在和我妈妈说话。",
+       "I'm talking to my mum."
+      ]
+     ]
+    },
+    {
+     "pattern": "Person + 在 + place + verb",
+     "meaning": "Do something somewhere.",
+     "examples": [
+      [
+       "我哥哥在图书馆学习。",
+       "My brother studies at the library."
+      ]
+     ]
+    },
+    {
+     "pattern": "Person + 用 + thing + verb",
+     "meaning": "Use something to do something.",
+     "examples": [
+      [
+       "我用电脑写中文作业。",
+       "I do my Chinese homework on the computer."
+      ]
+     ]
+    },
+    {
+     "pattern": "A + 给 + B + 打电话 / 写信 / 发邮件",
+     "meaning": "Call, write to or email someone.",
+     "examples": [
+      [
+       "我给妈妈打电话。",
+       "I call my mum."
+      ]
+     ]
+    },
+    {
+     "pattern": "Person A + 帮 + Person B + verb",
+     "meaning": "Help someone do something.",
+     "examples": [
+      [
+       "你能不能帮帮我？",
+       "Can you help me?"
+      ]
+     ]
+    },
+    {
+     "pattern": "一边 + verb 1，一边 + verb 2",
+     "meaning": "Do two things at the same time.",
+     "examples": [
+      [
+       "我常常一边洗澡，一边唱歌。",
+       "I often sing in the shower."
+      ],
+      [
+       "不要一边开车，一边打电话。",
+       "Don't talk on the phone while driving."
+      ]
+     ]
+    },
+    {
+     "pattern": "向 + someone + 借 + thing / 借 + thing + 给 + someone",
+     "meaning": "Borrow from someone / lend to someone.",
+     "examples": []
+    },
+    {
+     "pattern": "Verb + 一下",
+     "meaning": "Do something briefly or casually.",
+     "examples": [
+      [
+       "看一下",
+       "have a look"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lesson-19",
+   "title": "Lesson 19",
+   "source": "2-5B",
+   "cards": [
+    {
+     "hanzi": "电脑",
+     "pinyin": "diànnǎo",
+     "english": "computer",
+     "example": "我们每天都用电脑。",
+     "example_en": "We use computers every day."
+    },
+    {
+     "hanzi": "台",
+     "pinyin": "tái",
+     "english": "measure word for machines",
+     "example": "我想买一台新电脑。",
+     "example_en": "I want to buy a new computer."
+    },
+    {
+     "hanzi": "手提",
+     "pinyin": "shǒutí",
+     "english": "portable",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "笔记本",
+     "pinyin": "bǐjìběn",
+     "english": "notebook",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "笔记本电脑",
+     "pinyin": "bǐjìběn diànnǎo",
+     "english": "laptop",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "种",
+     "pinyin": "zhǒng",
+     "english": "type, kind",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "各",
+     "pinyin": "gè",
+     "english": "each, every",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "各种",
+     "pinyin": "gèzhǒng",
+     "english": "all kinds of",
+     "example": "在大学里你会遇到各种人。",
+     "example_en": "At university you'll meet all kinds of people."
+    },
+    {
+     "hanzi": "遇到",
+     "pinyin": "yùdào",
+     "english": "meet, come across",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "牌子",
+     "pinyin": "páizi",
+     "english": "brand",
+     "example": "你喜欢哪种牌子？",
+     "example_en": "Which brand do you like?"
+    },
+    {
+     "hanzi": "进口",
+     "pinyin": "jìnkǒu",
+     "english": "import",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "出口",
+     "pinyin": "chūkǒu",
+     "english": "export",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "科技",
+     "pinyin": "kējì",
+     "english": "technology",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "生产",
+     "pinyin": "shēngchǎn",
+     "english": "produce, make (in a factory)",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "制造",
+     "pinyin": "zhìzào",
+     "english": "manufacture",
+     "example": "中国制造",
+     "example_en": "Made in China"
+    },
+    {
+     "hanzi": "兴趣",
+     "pinyin": "xìngqù",
+     "english": "interest, hobby",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "感兴趣",
+     "pinyin": "gǎn xìngqù",
+     "english": "be interested",
+     "example": "我们对学习中文感兴趣。",
+     "example_en": "We're interested in learning Chinese."
+    },
+    {
+     "hanzi": "东西",
+     "pinyin": "dōngxi",
+     "english": "thing, stuff",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "便宜",
+     "pinyin": "piányi",
+     "english": "cheap",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "贵",
+     "pinyin": "guì",
+     "english": "expensive",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "湿",
+     "pinyin": "shī",
+     "english": "wet",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "可爱",
+     "pinyin": "kě'ài",
+     "english": "cute",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "女孩儿",
+     "pinyin": "nǚháir",
+     "english": "girl",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "男孩儿",
+     "pinyin": "nánháir",
+     "english": "boy",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "孩子",
+     "pinyin": "háizi",
+     "english": "child",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "小孩儿",
+     "pinyin": "xiǎoháir",
+     "english": "child, kid",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "女生",
+     "pinyin": "nǚshēng",
+     "english": "female student, girl",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "男生",
+     "pinyin": "nánshēng",
+     "english": "male student, boy",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "漂亮",
+     "pinyin": "piàoliang",
+     "english": "pretty",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "帅气",
+     "pinyin": "shuàiqi",
+     "english": "handsome",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "当时",
+     "pinyin": "dāngshí",
+     "english": "at that time",
+     "example": "我当时在吃午饭。",
+     "example_en": "I was having lunch at the time."
+    },
+    {
+     "hanzi": "那时候",
+     "pinyin": "nà shíhou",
+     "english": "at that time",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "认真",
+     "pinyin": "rènzhēn",
+     "english": "serious, earnest, focused",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "听课",
+     "pinyin": "tīng kè",
+     "english": "listen in class, attend a lesson",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "高兴",
+     "pinyin": "gāoxìng",
+     "english": "happy",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "忘",
+     "pinyin": "wàng",
+     "english": "forget",
+     "example": "对不起我忘了给你打电话。",
+     "example_en": "Sorry, I forgot to call you."
+    },
+    {
+     "hanzi": "已经",
+     "pinyin": "yǐjīng",
+     "english": "already",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "过时",
+     "pinyin": "guòshí",
+     "english": "out of date",
+     "example": "这种牌子已经过时了。",
+     "example_en": "This brand is already out of date."
+    },
+    {
+     "hanzi": "旁边",
+     "pinyin": "pángbiān",
+     "english": "next to, beside",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "找",
+     "pinyin": "zhǎo",
+     "english": "look for",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "送",
+     "pinyin": "sòng",
+     "english": "give (as a gift); send; see off",
+     "example": "",
+     "example_en": ""
+    }
+   ],
+   "grammar": [
+    {
+     "pattern": "给 + someone + verb",
+     "meaning": "Do something for someone.",
+     "examples": [
+      [
+       "我想给你唱歌。",
+       "I want to sing for you."
+      ],
+      [
+       "我朋友常常给我做饭。",
+       "My friend often cooks for me."
+      ]
+     ]
+    },
+    {
+     "pattern": "Person + 对 + thing + 感兴趣 / 不感兴趣",
+     "meaning": "Be interested / not interested in something.",
+     "examples": [
+      [
+       "他们对考试没兴趣。",
+       "They're not interested in exams."
+      ]
+     ]
+    },
+    {
+     "pattern": "又 + adjective + 又 + adjective",
+     "meaning": "Both ... and ...",
+     "examples": [
+      [
+       "今天又湿又冷。",
+       "Today is both wet and cold."
+      ],
+      [
+       "我小妹妹又漂亮又可爱。",
+       "My little sister is pretty and cute."
+      ]
+     ]
+    },
+    {
+     "pattern": "Person + 认真地 + verb",
+     "meaning": "Do something seriously or carefully (adjective + 地 + verb).",
+     "examples": [
+      [
+       "我们当时在认真地听课。",
+       "We were listening carefully in class at the time."
+      ]
+     ]
+    },
+    {
+     "pattern": "Person + 忘了 + verb",
+     "meaning": "Forgot to do something.",
+     "examples": [
+      [
+       "你忘了我已经20岁了吗？",
+       "Did you forget I'm already 20?"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lesson-20",
+   "title": "Lesson 20",
+   "source": "2-6A, 2-6B",
+   "cards": [
+    {
+     "hanzi": "国家",
+     "pinyin": "guójiā",
+     "english": "country, nation",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "一些",
+     "pinyin": "yìxiē",
+     "english": "some",
+     "example": "我学了一些中文。",
+     "example_en": "I've learnt some Chinese."
+    },
+    {
+     "hanzi": "有些",
+     "pinyin": "yǒuxiē",
+     "english": "some",
+     "example": "有些人从来不做饭。",
+     "example_en": "Some people never cook."
+    },
+    {
+     "hanzi": "哪些",
+     "pinyin": "nǎxiē",
+     "english": "which (plural)",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "打算",
+     "pinyin": "dǎsuàn",
+     "english": "plan; intend to",
+     "example": "我打算去完中国就去日本。",
+     "example_en": "I plan to go to Japan right after China."
+    },
+    {
+     "hanzi": "完",
+     "pinyin": "wán",
+     "english": "finish",
+     "example": "我们上完课就回家。",
+     "example_en": "We go home as soon as class finishes."
+    },
+    {
+     "hanzi": "长城",
+     "pinyin": "Chángchéng",
+     "english": "the Great Wall",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "长江",
+     "pinyin": "Chángjiāng",
+     "english": "the Yangtze River",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "黄山",
+     "pinyin": "Huángshān",
+     "english": "Huangshan Mountain",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "黄河",
+     "pinyin": "Huánghé",
+     "english": "the Yellow River",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "当然",
+     "pinyin": "dāngrán",
+     "english": "of course",
+     "example": "我当然吃过披萨。",
+     "example_en": "Of course I've had pizza."
+    },
+    {
+     "hanzi": "马上",
+     "pinyin": "mǎshàng",
+     "english": "right away, immediately",
+     "example": "我马上就走。",
+     "example_en": "I'll go right now."
+    },
+    {
+     "hanzi": "熊猫",
+     "pinyin": "xióngmāo",
+     "english": "panda",
+     "example": "你见过熊猫吗？",
+     "example_en": "Have you ever seen a panda?"
+    },
+    {
+     "hanzi": "动物",
+     "pinyin": "dòngwù",
+     "english": "animal",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "动物园",
+     "pinyin": "dòngwùyuán",
+     "english": "zoo",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "带",
+     "pinyin": "dài",
+     "english": "take, bring (someone)",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "过",
+     "pinyin": "guo",
+     "english": "particle for past experience",
+     "example": "我去过日本一次。",
+     "example_en": "I've been to Japan once."
+    },
+    {
+     "hanzi": "假期",
+     "pinyin": "jiàqī",
+     "english": "holiday",
+     "example": "你假期打算做什么？",
+     "example_en": "What are you planning to do in the holidays?"
+    },
+    {
+     "hanzi": "圣诞节",
+     "pinyin": "Shèngdàn Jié",
+     "english": "Christmas",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "放假",
+     "pinyin": "fàng jià",
+     "english": "have a holiday, be on break",
+     "example": "学校下星期放假。",
+     "example_en": "School breaks up next week."
+    },
+    {
+     "hanzi": "度假",
+     "pinyin": "dù jià",
+     "english": "go on holiday",
+     "example": "我去法国度假。",
+     "example_en": "I'm going on holiday to France."
+    },
+    {
+     "hanzi": "要是",
+     "pinyin": "yàoshi",
+     "english": "if",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "甜点",
+     "pinyin": "tiándiǎn",
+     "english": "dessert",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "机会",
+     "pinyin": "jīhuì",
+     "english": "opportunity, chance",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "一直",
+     "pinyin": "yìzhí",
+     "english": "always, all along",
+     "example": "",
+     "example_en": ""
+    }
+   ],
+   "grammar": [
+    {
+     "pattern": "Clause + 的 + noun",
+     "meaning": "Describe a noun with a whole phrase.",
+     "examples": [
+      [
+       "你昨天买的电脑很贵。",
+       "The computer you bought yesterday is expensive."
+      ],
+      [
+       "那个会说中文的女孩儿很漂亮。",
+       "The girl who can speak Chinese is pretty."
+      ]
+     ]
+    },
+    {
+     "pattern": "Person + verb + 完 + thing 1 + 就 + thing 2",
+     "meaning": "Do thing 2 straight after finishing thing 1.",
+     "examples": [
+      [
+       "我们吃完饭就去玩儿。",
+       "We'll go out as soon as we've eaten."
+      ]
+     ]
+    },
+    {
+     "pattern": "Verb + 过",
+     "meaning": "Have done something before (past experience). Negative: 没 + verb + 过.",
+     "examples": [
+      [
+       "我看过这本书。",
+       "I've read this book."
+      ],
+      [
+       "我从来没听过他的歌。",
+       "I've never heard his songs."
+      ]
+     ]
+    },
+    {
+     "pattern": "过 vs 了",
+     "meaning": "了 = an action is done. 过 = you have the experience of doing it.",
+     "examples": [
+      [
+       "他去了法国。",
+       "He went to France."
+      ],
+      [
+       "他去过法国。",
+       "He's been to France (before)."
+      ]
+     ]
+    },
+    {
+     "pattern": "Person (verb) + 是 + verb + 过，可是……",
+     "meaning": "I did do it before, but...",
+     "examples": [
+      [
+       "我是学过日语，可是我现在忘了。",
+       "I did learn Japanese, but I've forgotten it now."
+      ]
+     ]
+    },
+    {
+     "pattern": "Person + 都（已经）+ verb + 了",
+     "meaning": "Stresses that something has already been done.",
+     "examples": [
+      [
+       "我都已经给你买花了，你为什么还不高兴？",
+       "I've already bought you flowers, why are you still unhappy?"
+      ]
+     ]
+    },
+    {
+     "pattern": "Person + 一 + A + 就 + B",
+     "meaning": "As soon as A happens, B happens.",
+     "examples": [
+      [
+       "他一上课就玩手机。",
+       "As soon as class starts he plays on his phone."
+      ]
+     ]
+    },
+    {
+     "pattern": "要 + verb + 了",
+     "meaning": "Going to do something soon.",
+     "examples": [
+      [
+       "我要去北京了。",
+       "I'm about to go to Beijing."
+      ]
+     ]
+    },
+    {
+     "pattern": "要是……，就……",
+     "meaning": "If ..., then ...",
+     "examples": [
+      [
+       "你要是来，我就走。",
+       "If you come, I'll leave."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "book3-warmup",
+   "title": "Book 3 warm-up",
+   "source": "2-7A, 2-7B",
+   "cards": [
+    {
+     "hanzi": "俄罗斯",
+     "pinyin": "Éluósī",
+     "english": "Russia",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "夏天",
+     "pinyin": "xiàtiān",
+     "english": "summer",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "名片",
+     "pinyin": "míngpiàn",
+     "english": "business card",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "周末",
+     "pinyin": "zhōumò",
+     "english": "weekend",
+     "example": "你周末过得怎么样？",
+     "example_en": "How was your weekend?"
+    },
+    {
+     "hanzi": "更",
+     "pinyin": "gèng",
+     "english": "even more",
+     "example": "我更喜欢美国电影。",
+     "example_en": "I prefer American films."
+    },
+    {
+     "hanzi": "比起",
+     "pinyin": "bǐqǐ",
+     "english": "compared with",
+     "example": "比起火车，飞机更快。",
+     "example_en": "Compared with trains, planes are faster."
+    },
+    {
+     "hanzi": "方便",
+     "pinyin": "fāngbiàn",
+     "english": "convenient",
+     "example": "快餐更方便。",
+     "example_en": "Fast food is more convenient."
+    },
+    {
+     "hanzi": "快餐",
+     "pinyin": "kuàicān",
+     "english": "fast food",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "晚点",
+     "pinyin": "wǎn diǎn",
+     "english": "be late (of transport)",
+     "example": "火车晚点了！",
+     "example_en": "The train is late!"
+    },
+    {
+     "hanzi": "游客",
+     "pinyin": "yóukè",
+     "english": "tourist",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "旅客",
+     "pinyin": "lǚkè",
+     "english": "passenger, traveller",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "成",
+     "pinyin": "chéng",
+     "english": "become",
+     "example": "他长大以后成了医生。",
+     "example_en": "He became a doctor when he grew up."
+    },
+    {
+     "hanzi": "成为",
+     "pinyin": "chéngwéi",
+     "english": "become",
+     "example": "我弟弟想成为一名律师。",
+     "example_en": "My little brother wants to become a lawyer."
+    },
+    {
+     "hanzi": "交朋友",
+     "pinyin": "jiāo péngyou",
+     "english": "make friends",
+     "example": "我今年交了很多朋友。",
+     "example_en": "I made lots of friends this year."
+    },
+    {
+     "hanzi": "交流",
+     "pinyin": "jiāoliú",
+     "english": "communicate",
+     "example": "他们用汉语交流。",
+     "example_en": "They communicate in Chinese."
+    },
+    {
+     "hanzi": "放",
+     "pinyin": "fàng",
+     "english": "put, place",
+     "example": "她把书放在家里。",
+     "example_en": "She left the book at home."
+    },
+    {
+     "hanzi": "医生",
+     "pinyin": "yīshēng",
+     "english": "doctor",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "律师",
+     "pinyin": "lǜshī",
+     "english": "lawyer",
+     "example": "",
+     "example_en": ""
+    },
+    {
+     "hanzi": "打架",
+     "pinyin": "dǎjià",
+     "english": "fight",
+     "example": "",
+     "example_en": ""
+    }
+   ],
+   "grammar": [
+    {
+     "pattern": "更 + adjective / 喜欢 / 爱",
+     "meaning": "Even more, or prefer.",
+     "examples": [
+      [
+       "我更爱冬天。",
+       "I love winter more."
+      ]
+     ]
+    },
+    {
+     "pattern": "A 比 B + (更) adjective",
+     "meaning": "A is more ... than B.",
+     "examples": [
+      [
+       "伦敦比杜伦（更）大。",
+       "London is bigger than Durham."
+      ]
+     ]
+    },
+    {
+     "pattern": "比起 A，B 更 + adjective",
+     "meaning": "Compared with A, B is more ...",
+     "examples": [
+      [
+       "比起打篮球，他更喜欢踢足球。",
+       "He prefers football to basketball."
+      ]
+     ]
+    },
+    {
+     "pattern": "点 vs 点儿",
+     "meaning": "点 is about clock time (三点, 晚点了). 点儿 means a bit (有点儿, 一点儿, 晚点儿再来).",
+     "examples": [
+      [
+       "你晚点儿再来吧。",
+       "Come back a bit later."
+      ]
+     ]
+    },
+    {
+     "pattern": "过 + holiday / festival",
+     "meaning": "Spend a holiday or festival.",
+     "examples": [
+      [
+       "你假期过得怎么样？",
+       "How was your holiday?"
+      ]
+     ]
+    },
+    {
+     "pattern": "Person + 把 + thing + 放在 + place",
+     "meaning": "Put something somewhere.",
+     "examples": [
+      [
+       "她把书放在家里。",
+       "She left the book at home."
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
