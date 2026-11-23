@@ -70,7 +70,7 @@ function renderHome() {
     ${Object.entries(groups).map(([course, sets]) => `<h2>${esc(course)}</h2><div class="grid">
       ${sets.map((s) => `<a class="tile" href="#/set/${s.id}/${modesFor(s)[0][0]}"><b>${esc(s.title)}</b>
         <small>${[s.cards.length && s.cards.length + " words", sentencesOf(s).length + " sentences", s.grammar.length + " grammar points"].filter(Boolean).join(" · ")}</small>
-        <div style="font-size:24px;margin-top:8px">${s.cards.length ? s.cards.slice(0, 4).map((c) => esc(c.hanzi)).join(" ") : esc(sentencesOf(s)[0]?.zh || "")}</div></a>`).join("")}
+        <div class="zh">${s.cards.length ? s.cards.slice(0, 4).map((c) => esc(c.hanzi)).join(" ") : esc(sentencesOf(s)[0]?.zh || "")}</div></a>`).join("")}
     </div>`).join("")}`;
 }
 
@@ -328,6 +328,11 @@ function modeGrammar(set, el) {
       ${py ? `<div class="py">${esc(py)}</div>` : ""}<span class="muted">${esc(en)}</span></li>`).join("")}</ul>` : ""}</div>`).join("")
     || `<p class="muted">No grammar notes for this set yet.</p>`;
 }
+
+// ---------- theme picker ----------
+const themeSel = document.getElementById("theme");
+themeSel.value = document.documentElement.dataset.theme || "classic";
+themeSel.onchange = () => { document.documentElement.dataset.theme = themeSel.value; try { localStorage.setItem("theme", themeSel.value); } catch {} };
 
 // ---------- start ----------
 Promise.all(DATA_FILES.map((f) => fetch(f).then((r) => r.json())))
