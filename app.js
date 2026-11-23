@@ -200,7 +200,7 @@ function modeMatch(set, el) {
     const tiles = shuffle(cards.flatMap((c) => [{ c, zh: true }, { c, zh: false }]));
     let sel = null, left = cards.length, t0 = Date.now(), penalty = 0;
     el.innerHTML = `<p class="muted">Match each Chinese word to its meaning. Wrong matches add 1 second.</p>
-      <div class="match">${tiles.map((t, k) => `<button class="tilem ${t.zh ? "zh" : ""}" data-k="${k}">${esc(t.zh ? t.c.hanzi : t.c.english)}</button>`).join("")}</div>`;
+      <div class="match">${tiles.map((t, k) => `<button class="tilem ${t.zh ? "zh" : ""}" data-k="${k}">${t.zh ? esc(t.c.hanzi) : pyEn(t.c)}</button>`).join("")}</div>`;
     el.querySelectorAll(".tilem").forEach((b) => (b.onclick = () => {
       const t = tiles[b.dataset.k];
       if (t.zh) speak(t.c.hanzi, t.c.audio);
